@@ -1,0 +1,811 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+
+.lgTitle {
+  font-size: 34px;
+font-style: normal;
+font-weight: 600;
+}
+
+.lgSubTitle {
+  color: #CA002D;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+}
+
+
+div.scrollmenu {
+  background-color: #393738;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 4px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px !important;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+
+div.scrollmenu div {
+  display: inline-block;
+  
+}
+
+div.materiauxMob {
+ overflow: auto;
+ white-space: nowrap;
+ padding: 4px;
+}
+
+div.materiauxMob div {
+  display: inline-block;
+  
+}
+
+
+.menuSelected {background-color: #af1920;}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px !important;
+    color: #393738 !important;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.bubble {
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    /* shadow box */
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.bubbleTxt {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.noDec {text-decoration:none !;}
+
+
+
+/* STYLES QUI OVERRIDE LES STYLES GEDIMAT.FR */
+#corps {
+    overflow: hidden;
+    padding: 0rem !important;
+}
+
+.menuNiv1 > li > a:hover {
+    color: black !important;
+}
+
+/* ---------------------- */
+
+/*SPACING*/
+
+.py-50 {padding-top: 50px;}
+.pl-15 {padding-left: 15;}
+.vAlign {vertical-align: middle;} 
+
+/*CAROUSEL OVERRIDE*/
+
+.owl-mx-wdth {
+    max-width: 1000px !important;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px,0,0);
+    padding-bottom: 40px !important;
+    padding-top: 15 !important;
+}
+
+.owl-carousel .owl-item img {
+    
+   /* width: 80% !important; */
+    text-align: center !important;
+   
+}
+
+.mob-bg-bottom {
+/*    background-color: #393738;*/
+    background-image: url("https://pprod-uploads.gedimat.fr/CMS/images/ouvrages/bg-bottom.png");
+    background-position: center;
+    background-repeat: repeat-y;
+
+}
+
+/*TRANSITIONS HACK*/
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #af1920 !important;
+    height: 4px;
+    -webkit-transition-property: left,right;
+    transition-property: left,right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-overline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    background: #af1920;
+    height: 4px;
+    -webkit-transition-property: left,right;
+    transition-property: left,right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #af1920 !important;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+
+/*NAVBAR HACK*/
+.bg-dark {
+    background-color: #393738 !important;
+
+}
+
+
+.nowrp {
+    white-space: nowrap;
+}
+
+
+/*STICKY*/
+
+.stick {
+    height: 0px;
+}
+
+a > .bubble { color:#393738 !important; text-decoration:none !important; font-size:12px !important; }
+
+/*IMAGES*/
+
+.matImg {width: 105px; height: 105px;}
+
+.product {
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    max-height: 115px !important;
+}
+
+/*CAROUSEL*/
+
+.itemCard {
+width: 143px;
+height: 230px;
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.itemCard:hover {
+
+border: 1px solid #1A7D3C;
+
+}
+
+.cardTxt {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 60px: ;
+}
+
+.cardPrice {
+    top: 10px
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #af1920;
+}
+.carouselBg {
+  background-image: url("img2/carousel-bg.jpg");
+  height: 220px; 
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.carouselH {
+  height: 300px; 
+}
+
+
+/*OUTILS*/
+
+.outilsBox {
+    height: 400px;
+    background-color: #F1EDEA;
+}
+
+.outilCard {
+width: 220px;
+height: 280px;
+background: #FFFFFF;
+
+}
+
+.outilCardTxt {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+   /* text-align: center !important;*/
+ 
+}
+
+/*BODY AND FONTS*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 1.7;
+    color: black !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.4rem !important;
+}
+
+
+span {  font-weight: 400 !important;}
+
+/*BREADCRUMB*/
+
+.bread {
+    min-height: 56px;
+    margin-left: -15px;
+}
+
+.breadCorner {
+    margin-left: -2px;
+}
+
+.bgGrisBread  {
+    background-color: #393738;
+}
+
+.btnNav {
+    background-color: #393738;
+    min-height: 56px;
+    color: white !important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+}
+ 
+
+.btnNavSelected {
+    background-color: #af1920;
+    min-height: 56px;
+    
+}
+
+.btnNav > a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.btnNavSelected > a {
+    text-decoration: none;
+    color: white !important;
+    text-transform: uppercase !important;
+
+}
+
+
+
+.btnNavMob {
+    background-color: #393738;
+    min-height: 56px;
+    color: white !important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+    padding: 15px !important;
+    max-height: 56px;
+}
+ 
+
+.btnNavMobSelected {
+    background-color: #af1920 !important;
+    min-height: 56px;
+    padding: 15px !important;
+    background-position: right;
+    background-position: top right;
+     background-repeat: no-repeat;
+    
+}
+
+.btnNavMob > a {
+    text-decoration: none;
+    color: white !important;
+
+}
+
+.btnNavMobSelected > a {
+    text-decoration: none;
+    color: white !important;
+    text-transform: uppercase !important;
+}
+/*HEADER*/
+
+.bgGris  {
+    background-color: #393738;
+}
+
+.bgBlocTitle
+    {
+        background: url('https://pprod-uploads.gedimat.fr/CMS/images/ouvrages/fond.png');
+    }
+
+    /* image background */
+
+
+.titleBg  {
+    min-height: 382px;
+
+    /*background-color: #393738;*/
+}
+
+
+
+.videoSize {
+    min-width: 680px;
+}
+
+.ouvrageTitle {
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ouvrageSubTxt {
+    Font-family: 'Proxima Nova';
+    font-weight: 250 !important;
+    font-size: 14px;
+    line-height: 18px !important;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.video {
+    width: 680px;
+    height: ;
+}
+
+.handTxt {font-family: 'Freehand', cursive; font-size: 20px; font-weight: 200;}
+
+.blck {color: black !important;}
+
+
+.sectionTitre {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    color: #af1920;
+}
+
+.blocTitreBg {
+    background-color: #af1920;
+    padding: 7px;
+}
+
+.blocTitreTxt {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.TitreTxt {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.matTxt {
+    font-size: 13px !important;
+    padding-top: 10px;
+}
+
+
+.float{
+    float: left;
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+
+.dropdown-menu {
+
+    width: 188px !important;
+}
+
+.headerTitle {
+  position: relative;
+  bottom: -100px;
+  height: 25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+
+.line {
+  position: absolute;
+  width: 48px;
+  height: 2px;
+  border: 2px solid #FFFFFF;
+}
+
+.titreSection {
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+}
+
+.titreSection {
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+}
+
+.titreBox {
+font-weight: 600;
+font-size: 25px;
+text-transform: uppercase;
+}
+
+
+.titreProjet
+{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+text-transform: uppercase;
+color: #AF1A20;
+}
+
+/*.titreProjet:after {
+  content: '';
+  display: block;
+  margin-top: 10px;
+  width: 30px;
+  height: 1px;
+  background-color: black;
+}
+*/
+.rouge {
+  color: #AF1A20;
+}
+
+.baseline {
+font-weight: 300;
+font-size: 20px;
+}
+
+/*OWL CARSOUEL OVERRIDE*/
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #393837 !important;
+}
+
+/*BOX EN SAVOIR +*/
+.savPlus {
+    
+    background: #FFFFFF;
+    box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.2);
+}
+
+
+.savTitre {
+    font-size: 18px !important;
+    color: black;
+
+}
+
+
+
+
+/* ---------------------- */
+
+
+/*SPACER*/
+
+.spacerx {
+
+  background: url(https://pprod-uploads.gedimat.fr/CMS/images/ouvrages/spacerx.jpg);
+  height: 39px; 
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+/*BUTTONS*/
+
+.btn-blanc {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: white !important;
+    border-radius: 3px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btn-rouge {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #B00620;
+    border-radius: 3px;
+}
+
+.btn-rouge2 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #B00620;
+    border-radius: 3px;
+}
+
+.btn-gris {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #393738 !important;
+    border-radius: 3px;
+    border-color: #393738 !important;
+    width: 250px !important;
+
+}
+
+.btn-gris2 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #393738 !important;
+    border-radius: 3px;
+    border-color: #393738 !important;
+   /* width: 250px !important;*/
+
+}
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #B00620;
+    border-color: #B00620;
+    text-align: left !important;
+}
+
+.btn-outline-danger {
+    color: #af1920 !important;
+    border-color: #af1920 !important;
+    font-size: 13px;
+    text-transform: uppercase !important;
+}
+
+.btn-outline-danger:hover {
+    color: #fff !important;
+    background-color: #af1920 !important;
+    border-color: #af1920 !important;
+
+}
+
+/* ---------------------- */
+
+
+/*HEADER IMAGE*/
+
+
+
+/* ---------------------- */
+
+
+/*NAV WIZARD  */
+
+    
+ul.nav-wizard {
+  background-color: #393738;
+/*  border: 1px solid #d4d4d4;*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  *zoom: 1;
+  position: relative;
+  overflow: hidden;
+}
+ul.nav-wizard:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 46px;
+  height: 47px;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  z-index: 11;
+  content: " ";
+}
+ul.nav-wizard:after {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 138px;
+  height: 47px;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  z-index: 11;
+  content: " ";
+}
+ul.nav-wizard li {
+  position: relative;
+  float: left;
+  height: 46px;
+  display: inline-block;
+  text-align: middle;
+  padding: 0 20px 0 30px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 46px;
+}
+ul.nav-wizard li a {
+  color: white;
+  padding: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+ul.nav-wizard li a:hover {
+  background-color: transparent;
+}
+ul.nav-wizard li:before {
+  position: absolute;
+  display: block;
+  border: 24px solid transparent;
+  border-left: 16px solid #d4d4d4;
+  border-right: 0;
+  top: -1px;
+  z-index: 10;
+  content: '';
+  right: -16px;
+}
+ul.nav-wizard li:after {
+  position: absolute;
+  display: block;
+  border: 24px solid transparent;
+  border-left: 16px solid #393738;
+  border-right: 0;
+  top: -1px;
+  z-index: 10;
+  content: '';
+  right: -15px;
+}
+ul.nav-wizard li.active {
+  color: white;
+  background: #af1920;
+}
+ul.nav-wizard li.active:after {
+  border-left: 16px solid #af1920;
+}
+ul.nav-wizard li.active a,
+ul.nav-wizard li.active a:active,
+ul.nav-wizard li.active a:visited,
+ul.nav-wizard li.active a:focus {
+  color: white;
+  background: #af1920;
+}
+ul.nav-wizard .active ~ li {
+  color: white;
+  background: #393738;
+}
+ul.nav-wizard .active ~ li:after {
+  border-left: 16px solid #393738;
+}
+ul.nav-wizard .active ~ li a,
+ul.nav-wizard .active ~ li a:active,
+ul.nav-wizard .active ~ li a:visited,
+ul.nav-wizard .active ~ li a:focus {
+  color: white;
+  background: #393738;
+}
+ul.nav-wizard.nav-wizard-backnav li:hover {
+  color: #468847;
+  background: #f6fbfd;
+}
+ul.nav-wizard.nav-wizard-backnav li:hover:after {
+  border-left: 16px solid #f6fbfd;
+}
+ul.nav-wizard.nav-wizard-backnav li:hover a,
+ul.nav-wizard.nav-wizard-backnav li:hover a:active,
+ul.nav-wizard.nav-wizard-backnav li:hover a:visited,
+ul.nav-wizard.nav-wizard-backnav li:hover a:focus {
+  color: #468847;
+  background: #f6fbfd;
+}
+ul.nav-wizard.nav-wizard-backnav .active ~ li {
+  color: white;
+  background: #af1920;
+}
+ul.nav-wizard.nav-wizard-backnav .active ~ li:after {
+  border-left: 16px solid #af1920;
+}
+ul.nav-wizard.nav-wizard-backnav .active ~ li a,
+ul.nav-wizard.nav-wizard-backnav .active ~ li a:active,
+ul.nav-wizard.nav-wizard-backnav .active ~ li a:visited,
+ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
+  color: white;
+  background: #af1920;
+}
+
+
