@@ -157,42 +157,63 @@
 
 	</section>
 
-
-	<section id="slider-container" class="max-w-[1280px]">
 	
-
-		<div class="flex flex-row justify-between items-center mt-6">
+	<section id="slider-container" class="max-w-[1280px]">
+		
+		<div class="flex flex-row justify-center max-w-[1280px]">
+			
+			<div id="pagin" class="z-9"></div>
+			
+		</div>
+		<div class="flex flex-row justify-between items-center mt-6 relative">
 
 			
+			
+		
 			<div class="prevBtn">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
 			   </svg>
 			</div>
-			<div class="swiper">
+			<div class="swiper relative">
 				
 				 <div class="swiper-wrapper text-center">
-			
+				
+					
 					
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
 						
-						<h4 class="pt-4">Classique Chic</h4>
-						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
 						
+						<!-- <h4 class="pt-4">Classique Chic</h4>
+						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p> -->
+						
+						<div class="title" data-swiper-parallax="-100">Slide 1</div>
+						<div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/2.jpg" class="rounded-md">
+					
 						<h4 class="pt-4">texte2</h4>
 						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
+						
 						<h4 class="pt-4">texte3</h4>
+						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consecres commodi!</p>
 					</div>
-				
+
+					<div class="swiper-slide">
+						<img src="images/swiper/1.jpg" class="rounded-md">
+						<h4 class="pt-4">texte 4</h4>
+						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+					</div>
+
+					
+					
 				</div>
 			
 				
@@ -207,7 +228,7 @@
 
 			
 		</div>
-		<!-- <div class="swiper-pagination"></div> -->
+		
 
 	</section>
 
@@ -459,12 +480,14 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.prevBtn',
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '#pagin',
     type: 'bullets',
+	clickable: true,
   },
+  paginationClickable: true,
   centeredSlides: true,
   slidesPerView: 'auto',
-  autoHeight: true,
+//   autoHeight: true,
   loop: true,
 
 });
@@ -472,7 +495,7 @@ const swiper = new Swiper('.swiper', {
 		
 </script>
 
-  
+
 
 
 </body>

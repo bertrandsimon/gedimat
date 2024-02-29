@@ -1,6 +1,12 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align:center !important;
+}
+  .swiper-pagination-bullet-active {
+    background-color: #CA002D !important;
+}
 
 .lgBtn {
   display: inline-block;
