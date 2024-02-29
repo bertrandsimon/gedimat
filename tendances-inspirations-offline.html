@@ -184,32 +184,24 @@
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
 						
-						
-						<!-- <h4 class="pt-4">Classique Chic</h4>
-						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p> -->
-						
-						<div class="title" data-swiper-parallax="-100">Slide 1</div>
-						<div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+		
+
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/2.jpg" class="rounded-md">
 					
-						<h4 class="pt-4">texte2</h4>
-						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+					
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
 						
-						<h4 class="pt-4">texte3</h4>
-						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consecres commodi!</p>
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
-						<h4 class="pt-4">texte 4</h4>
-						<p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+					
 					</div>
 
 					
@@ -230,6 +222,19 @@
 		</div>
 		
 
+	</section>
+
+	<section id='slideTxt1'>
+		<div class="flex justify-center max-w-[1280px]">
+			<h4 class="pt-4">Classique Chic</h4>
+			<p class="pt-2" id="demoText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+		</div>
+		<button onclick="changeText()">Change Text</button>
+		<script>
+			function changeText() {
+				document.getElementById("demoText").innerHTML = "New text content!";
+			}
+		</script>
 	</section>
 
 	<div class="flex items-center justify-center py-4 max-w-[1280px]">
@@ -467,6 +472,23 @@
 </main> 
 
 <script>
+
+let slideCount = 1;
+console.log ('slideCount', slideCount);
+
+document.querySelector('.nextBtn').addEventListener('click', () => {
+	if (slideCount < 3 )
+	{ slideCount++;}
+ 
+  console.log ('slideCount', slideCount);
+});
+
+document.querySelector('.prevBtn').addEventListener('click', () => {
+	if (slideCount > 1 )
+	{ slideCount--;}
+  console.log ('slideCount', slideCount);
+});
+
 const swiper = new Swiper('.swiper', {
  autoplay: {
    delay: 5000,
@@ -488,7 +510,7 @@ const swiper = new Swiper('.swiper', {
   centeredSlides: true,
   slidesPerView: 'auto',
 //   autoHeight: true,
-  loop: true,
+  loop: false,
 
 });
 
