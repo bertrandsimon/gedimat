@@ -49,8 +49,6 @@
 	
 <main class="container">
 
-<h1>test</h1>
-
 	<section id="header" class="mb-4">
 
 		<div class="flex flex-row my-3">
@@ -224,22 +222,43 @@
 
 	</section>
 
-	<section id='slideTxt1'>
-		<div class="flex justify-center max-w-[1280px]">
-			<h4 class="pt-4">Classique Chic</h4>
-			<p class="pt-2" id="demoText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+	<section id='slideTxt1' class="visible">
+		<div class="flex flex-col items-center justify-center text-center max-w-[1280px]" >
+			<h4 class="pt-4" id="swiperTitle">TEXT 1</h4>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
 		</div>
-		<button onclick="changeText()">Change Text</button>
-		<script>
-			function changeText() {
-				document.getElementById("demoText").innerHTML = "New text content!";
-			}
-		</script>
+
+		<div class="flex items-center justify-center py-4 max-w-[1280px]">
+			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
+		</div>
+	
 	</section>
 
-	<div class="flex items-center justify-center py-4 max-w-[1280px]">
-		<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
-	</div>
+	<section id='slideTxt2' class="hidden">
+		<div class="flex flex-col items-center justify-center text-center max-w-[1280px] hidden" >
+			<h4 class="pt-4" id="swiperTitle">TEXT 2</h4>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+		</div>
+
+		<div class="flex items-center justify-center py-4 max-w-[1280px]">
+			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
+		</div>
+	
+	</section>
+
+	<section id='slideTxt3' class="hidden">
+		<div class="flex flex-col items-center justify-center text-center max-w-[1280px]" >
+			<h4 class="pt-4" id="swiperTitle">TEXTE 3</h4>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+		</div>
+
+		<div class="flex items-center justify-center py-4 max-w-[1280px]">
+			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
+		</div>
+	
+	</section>
+
+	
 
 	<br><br><br><br></br>
 	<section id="pieces_select"> 
@@ -478,16 +497,56 @@ console.log ('slideCount', slideCount);
 
 document.querySelector('.nextBtn').addEventListener('click', () => {
 	if (slideCount < 3 )
-	{ slideCount++;}
+	{ 
+		slideCount++;
+		switch (slideCount) {
+			case 1:
+			document.getElementById('slideTxt1').classList.remove('hidden');
+			document.getElementById('slideTxt2').classList.add('hidden');
+			document.getElementById('slideTxt3').classList.add('hidden');
+			break;
+			case 2:
+			document.getElementById('slideTxt1').classList.add('hidden');
+			document.getElementById('slideTxt2').classList.remove('hidden');
+			document.getElementById('slideTxt3').classList.add('hidden');
+			break;
+			case 3:
+			document.getElementById('slideTxt1').classList.add('hidden');
+			document.getElementById('slideTxt2').classList.add('hidden');
+			document.getElementById('slideTxt3').classList.remove('hidden');
+			break;
+		}
+		
+	}
  
   console.log ('slideCount', slideCount);
 });
 
 document.querySelector('.prevBtn').addEventListener('click', () => {
 	if (slideCount > 1 )
-	{ slideCount--;}
+	{ slideCount--;
+		switch (slideCount) {
+			case 1:
+			document.getElementById('slideTxt1').classList.remove('hidden');
+			document.getElementById('slideTxt2').classList.add('hidden');
+			document.getElementById('slideTxt3').classList.add('hidden');
+			break;
+			case 2:
+			document.getElementById('slideTxt1').classList.add('hidden');
+			document.getElementById('slideTxt2').classList.remove('hidden');
+			document.getElementById('slideTxt3').classList.add('hidden');
+			break;
+			case 3:
+			document.getElementById('slideTxt1').classList.add('hidden');
+			document.getElementById('slideTxt2').classList.add('hidden');
+			document.getElementById('slideTxt3').classList.remove('hidden');
+			break;
+		}
+	}
   console.log ('slideCount', slideCount);
 });
+
+
 
 const swiper = new Swiper('.swiper', {
  autoplay: {
