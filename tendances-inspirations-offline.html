@@ -89,12 +89,18 @@
 
 
 	</section>
+	
+
+	<section id="slideshow mobile" class="sm:hidden mb-4 gap-4 max-w-[1280px]">
+		<div class="flex no-wrap"></div>
+
+	</section>
 
 
-	<section id="slideshow" class="mb-4">
+	<section id="slideshow desktop" class="hidden md:block mb-4">
 
 		<!-- line 1 -->
-		<div class="flex items-center justify-between text-center max-w-[1280px] pt-4">
+		<div class="flex items-center justify-between text-center max-w-[1280px] pt-4 gap-1">
 			
 			<div class="flex flex-col items-center">
 				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-md">
@@ -123,11 +129,12 @@
 				</div>
 				<span class="pt-2">Noir & Blanc</span>
 			</div>
+			
 		</div>
 		<!-- #1line 1 -->
 
 		<!-- line 2 -->
-		<div class="flex items-center justify-center text-center max-w-[1280px] pt-4">
+		<div class="flex items-center justify-center text-center max-w-[1280px] pt-4 gap-1">
 			
 			<div class="flex flex-col items-center basis-1/4">
 				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-md">
@@ -159,11 +166,8 @@
 	<section id="slider-container" class="max-w-[1280px]">
 		
 	
-		<div class="flex flex-row justify-between items-center mt-6 relative">
+		<div class="flex flex-row justify-around items-center mt-6 relative">
 
-			
-			
-		
 			<div class="prevBtn">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
@@ -541,7 +545,6 @@ const swiper = new Swiper('.swiper', {
   paginationClickable: true,
   centeredSlides: true,
   slidesPerView: 'auto',
-//   autoHeight: true,
   loop: false,
 
 });
