@@ -177,33 +177,19 @@
 				
 				 <div class="swiper-wrapper text-center">
 				
-					
-					
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
-						
-		
-
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/2.jpg" class="rounded-md">
-					
-					
 					</div>
 
 					<div class="swiper-slide">
 						<img src="images/swiper/1.jpg" class="rounded-md">
-						
 					</div>
 
-					<div class="swiper-slide">
-						<img src="images/swiper/1.jpg" class="rounded-md">
-					
-					</div>
 
-					
-					
 				</div>
 			
 				
@@ -225,7 +211,9 @@
 	<section id='slideTxt1' class="visible">
 		<div class="flex flex-col items-center justify-center text-center max-w-[1280px]" >
 			<h4 class="pt-4" id="swiperTitle">TEXT 1</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Le classique chic - caractérisé par des lignes courbes et gracieuses et des motifs floraux -
+				s’invite dès la porte d’entrée aux détails raffinés. Atmosphère douce et distinguée
+				aux allures de boudoir, un parfait mélange d’élégance, de raffinement et de bon goût !</p>
 		</div>
 
 		<div class="flex items-center justify-center py-4 max-w-[1280px]">
@@ -235,9 +223,9 @@
 	</section>
 
 	<section id='slideTxt2' class="hidden">
-		<div class="flex flex-col items-center justify-center text-center max-w-[1280px] hidden" >
+		<div class="flex flex-col items-center justify-center text-center max-w-[1280px]" >
 			<h4 class="pt-4" id="swiperTitle">TEXT 2</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, gfdgfdgfdipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
 		</div>
 
 		<div class="flex items-center justify-center py-4 max-w-[1280px]">
@@ -249,7 +237,7 @@
 	<section id='slideTxt3' class="hidden">
 		<div class="flex flex-col items-center justify-center text-center max-w-[1280px]" >
 			<h4 class="pt-4" id="swiperTitle">TEXTE 3</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem,EZEZZE ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
 		</div>
 
 		<div class="flex items-center justify-center py-4 max-w-[1280px]">
@@ -493,29 +481,27 @@
 <script>
 
 let slideCount = 1;
-console.log ('slideCount', slideCount);
+
+const swiperTxts = 
+	{	
+		title: 'TEXT 1',
+		title2: 'TEXT 2',
+		title3: 'TEXT 3',
+		subTxt1: 'Le classique chic - caractérisé par des lignes courbes et gracieuses et des motifs floraux - s’invite dès la porte d’entrée aux détails raffinés. Atmosphère douce et distinguée aux allures de boudoir, un parfait mélange d’élégance, de raffinement et de bon goût !',
+		subTxt2: 'Sous texte 2',
+		subTxt3: 'Sous texte 3',
+		link1:'#',
+		link2:'#',
+		link3:'#',
+	};
+
 
 document.querySelector('.nextBtn').addEventListener('click', () => {
 	if (slideCount < 3 )
 	{ 
 		slideCount++;
-		switch (slideCount) {
-			case 1:
-			document.getElementById('slideTxt1').classList.remove('hidden');
-			document.getElementById('slideTxt2').classList.add('hidden');
-			document.getElementById('slideTxt3').classList.add('hidden');
-			break;
-			case 2:
-			document.getElementById('slideTxt1').classList.add('hidden');
-			document.getElementById('slideTxt2').classList.remove('hidden');
-			document.getElementById('slideTxt3').classList.add('hidden');
-			break;
-			case 3:
-			document.getElementById('slideTxt1').classList.add('hidden');
-			document.getElementById('slideTxt2').classList.add('hidden');
-			document.getElementById('slideTxt3').classList.remove('hidden');
-			break;
-		}
+		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
+		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
 		
 	}
  
@@ -525,23 +511,8 @@ document.querySelector('.nextBtn').addEventListener('click', () => {
 document.querySelector('.prevBtn').addEventListener('click', () => {
 	if (slideCount > 1 )
 	{ slideCount--;
-		switch (slideCount) {
-			case 1:
-			document.getElementById('slideTxt1').classList.remove('hidden');
-			document.getElementById('slideTxt2').classList.add('hidden');
-			document.getElementById('slideTxt3').classList.add('hidden');
-			break;
-			case 2:
-			document.getElementById('slideTxt1').classList.add('hidden');
-			document.getElementById('slideTxt2').classList.remove('hidden');
-			document.getElementById('slideTxt3').classList.add('hidden');
-			break;
-			case 3:
-			document.getElementById('slideTxt1').classList.add('hidden');
-			document.getElementById('slideTxt2').classList.add('hidden');
-			document.getElementById('slideTxt3').classList.remove('hidden');
-			break;
-		}
+		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
+		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
 	}
   console.log ('slideCount', slideCount);
 });
