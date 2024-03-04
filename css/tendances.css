@@ -1,6 +1,8 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
+#sticky {
+  z-index: 100 !important; /* or a higher value if needed */
+}
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   text-align:center !important;
 }
@@ -22,6 +24,8 @@
 .thin {
   padding: 8px 16px;
 }
+
+.redBgLg { background-color: #CA002D;}
 .redBtn {
   background-color: #CA002D;
 }
