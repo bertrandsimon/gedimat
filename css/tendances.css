@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 #sticky {
   z-index: 100 !important; /* or a higher value if needed */
-  transition: margin-right 0.3s ease-out;
+  transition: margin-right 0.4s ease-out;
     margin-right: -184px; /* Initial retracted position */
 }
 
