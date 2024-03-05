@@ -3,7 +3,7 @@
 #sticky {
   z-index: 100 !important; /* or a higher value if needed */
   transition: margin-right 0.4s ease-out;
-    margin-right: -184px; /* Initial retracted position */
+    margin-right: -200px; /* Initial retracted position */
 }
 
 #sticky:hover {
