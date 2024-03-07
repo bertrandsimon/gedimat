@@ -275,10 +275,33 @@
 
 					<div class="swiper-slide">
 						<a href="#">
-							<img src="images/swiper/1.jpg" class="rounded-2xl">
+							<img src="images/swiper/3.jpg" class="rounded-2xl">
 						</a>
 					</div>
 
+					<div class="swiper-slide">
+						<a href="#">
+							<img src="images/swiper/4.jpg" class="rounded-2xl">
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#">
+							<img src="images/swiper/5.jpg" class="rounded-2xl">
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#">
+							<img src="images/swiper/6.jpg" class="rounded-2xl">
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#">
+							<img src="images/swiper/7.jpg" class="rounded-2xl">
+						</a>
+					</div>
 
 				</div>
 			
@@ -306,49 +329,22 @@
 
 	<section id='slideTxt1' class="visible my-16">
 		<div class="flex flex-col items-center justify-center text-center" >
-			<h4 class="pt-4 font-semibold" id="swiperTitle">TEXT 1</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Le classique chic - caractérisé par des lignes courbes et gracieuses et des motifs floraux -
-				s’invite dès la porte d’entrée aux détails raffinés. Atmosphère douce et distinguée
-				aux allures de boudoir, un parfait mélange d’élégance, de raffinement et de bon goût !</p>
+			<h4 class="pt-4 font-semibold" id="swiperTitle">Evasion Exotique</h4>
+			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">La nature, source inépuisable d’inspiration et d’émerveillement, s’invite dans votre maison et dans votre jardin pour vous offrir au quotidien une escapade exotique.</p>
 		</div>
 
 		<div class="flex items-center justify-center py-16">
-			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
+			<a href="#" id="slideLink"><div class="lgBtn thin redBtn">Découvrir cette tendance</div></a>
 		</div>
 	
 	</section>
 
-	<section id='slideTxt2' class="hidden my-16">
-		<div class="flex flex-col items-center justify-center text-center" >
-			<h4 class="pt-4 font-semibold" id="swiperTitle">TEXT 2</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem, gfdgfdgfdipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
-		</div>
-
-		<div class="flex items-center justify-center py-4">
-			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
-		</div>
-	
-	</section>
-
-	<section id='slideTxt3' class="hidden my-16">
-		<div class="flex flex-col items-center justify-center text-center" >
-			<h4 class="pt-4 font-semibold" id="swiperTitle">TEXTE 3</h4>
-			<p class="pt-2 max-w-[800px]" id="swiperSubTxt">Lorem,EZEZZE ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo sunt obcaecati aspernatur, praesentium consectetur nam consequuntur minima voluptatem commodi natus incidunt exercitationem quis assumenda? Quos facere corporis maiores commodi!</p>
-		</div>
-
-		<div class="flex items-center justify-center py-4">
-			<div class="lgBtn thin redBtn">Découvrir cette tendance</div>
-		</div>
-	
-	</section>
-
-	
 
 	
 	<section id="pieces_select" class="my-20"> 
 		<h2 class="text-3xl font-semibold text-center my-10">De l'inspiration pour toutes les pièces de la maison !</h2>
 		<div class="flex justify-center items-center gap-4 py-4 overflow-x-scroll lg:overflow-hidden no-wrap">
-
+D
 			<div class="flex flex-wrap flex-col justify-center items-center greyBg gap-3">
 				<img src="images/pieces/1.jpg" alt="">
 				<span class="text-xl font-semibold">Entrée</span>
@@ -550,23 +546,23 @@ const swiperTxts =
 		subTxt5: 'De l’orange à gogo, des motifs vintage et des objets relookés : les années 1970 reviennent en force avec leur style dynamique et coloré. C’est une fusion vibrante du passé et du présent qui offre aux teintes vives et à l’optimisme caractéristique de cette époque un époustouflant retour aux premières places des podiums.',
 		subTxt6: 'Envie d’un bel espace épuré et élégant propice à la détente ? C’est en coordonnant avec justesse les couleurs, les matériaux, le mobilier et les accessoires qu’on donne à l’ensemble une atmosphère pleine de style.',
 		subTxt7: 'Le classique chic - caractérisé par des lignes courbes et gracieuses et des motifs floraux - s’invite dès la porte d’entrée aux détails raffinés. Atmosphère douce et distinguée aux allures de boudoir, un parfait mélange d’élégance, de raffinement et de bon goût !',
-		link1:'#',
-		link2:'#',
-		link3:'#',
-		link4:'#',
-		link5:'#',
-		link6:'#',
-		link7:'#',
+		link1:'http://www.logeen.com',
+		link2:'http://www.logeen.com',
+		link3:'http://www.google.com',
+		link4:'http://www.google.com',
+		link5:'http://www.google.com',
+		link6:'http://www.google.com',
+		link7:'http://www.google.com',
 	};
 
 
 document.querySelector('.nextBtn').addEventListener('click', () => {
-	if (slideCount < 3 )
+	if (slideCount < 7 )
 	{ 
 		slideCount++;
 		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
 		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
-		
+		document.getElementById('slideLink').setAttribute('href', swiperTxts[`link${slideCount}`]);
 	}
 
 });
@@ -576,6 +572,7 @@ document.querySelector('.prevBtn').addEventListener('click', () => {
 	{ slideCount--;
 		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
 		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
+		document.getElementById('slideLink').setAttribute('href', swiperTxts[`link${slideCount}`]);
 	}
 
 });
