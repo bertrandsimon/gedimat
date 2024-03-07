@@ -6,9 +6,6 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
 
-<!-- ANIMATE -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
-
 <!-- HOVER -->
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" referrerpolicy="no-referrer" rel="stylesheet" />
 
@@ -19,19 +16,17 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<link href="css/tendances.css" rel="stylesheet" />
-
 <style>
 
 #sticky {
   z-index: 1000 !important; /* or a higher value if needed */
-  transition: margin-right 0.4s ease-out;
+  transition: margin-right 0.4s ease-out !important;
     margin-right: -200px; /* Initial retracted position */
 }
 
 #sticky:hover {
-	z-index: 1000 !important;
-  margin-right: -12 !important; /* Expanded position on hover */
+  z-index: 1000 !important;
+  margin-right: -12px !important; /* Expanded position on hover */
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -115,7 +110,7 @@ border-radius: 10px;
 <body class="overflow-x-hidden">
 
 	
-<main class="container mx-auto relative pr-0 pl-0 isolate">
+<main class="container mx-auto relative pr-0 pl-0">
 
 	<section id="sticky" class="fixed top-[280px] -right-2 cursor-pointer hidden md:block">
 	
@@ -137,7 +132,7 @@ border-radius: 10px;
 	</div>
 
 
-	<div class="container mx-auto max-w-[1280px]">
+	<div class="container mx-auto max-w-[1280px] isolate">
 	
 
 	<section id="header" class="my-24">
