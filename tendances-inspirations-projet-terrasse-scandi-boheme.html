@@ -1,12 +1,20 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- <meta charset="utf-8" /> -->
+<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
 <link href="https://fonts.googleapis.com" rel="preconnect" />
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
 
+<!-- HOVER -->
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" referrerpolicy="no-referrer" rel="stylesheet" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- SWIPER -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
 <style>
 
@@ -125,171 +133,179 @@ border-radius: 10px;
 
 
 	<div class="container mx-auto max-w-[1280px] isolate">
-	
 
-	<section id="header" class="my-24">
 
-		<div class="flex flex-row my-3">
-			<div class="pr-3">
-				<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
-				<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
-				</svg>
+		<section id="title" class="my-20">
+
+			<div class="flex flex-row my-10">
+				<div class="pr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+					</svg>
+				</div>
+				<div class="flex flex-col justify-around gap-2">
+					<h2 class="text-4xl font-semibold">Terrasse Scandi Bohème</h2>
+					<span class="text-xl tracking-tighter md:text-2xl font-semibold text-[#CA002D]">L’esprit Ibiza chez soi</span>
+					<p class="w-[560px] py-10">Créez un espace où le temps ralentit, où chaque coin respire l’esprit des vacances. Ajoutez du mobilier en bois, un tapis en jute, des suspensions en rotin et quelques plantes exotiques. Ambiance chill, musique douce et voilà, votre terrasse devient une véritable oasis, parfaite pour des moments de détente inoubliables.</p>
+				</div>
 			</div>
-			<div class="flex flex-col justify-around gap-2">
-				<h1 class="text-4xl md:text-5xl font-semibold">Salle de bains Loft Industriel</h1>
-				<span class="text-xl tracking-tighter md:text-3xl font-semibold text-[#CA002D]">Une salle de bains romantique et intemporelle</span>
+
+			<div class="flex items-center justify-center py-16">
+				<a href="https://www.gedimat.fr/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
 			</div>
-		</div>
 
-		<p class="w-[560px]">Les finitions en or brossé et le carrelage façon boiseries se conjuguent pour créer une ambiance élégante. Le carrelage effet parquet chevron évoquant le charme des hôtels particuliers est réveillé par la faïence toute fleurie dans la douche. Raffinement garanti !</p>
-
-		<div class="flex items-center justify-start py-16">
-			<a href="https://www.gedimat.fr/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
-		</div>
-	</section>
+		</section>
 
 
-	<section id="poi">
-		{{ ambiance 78 }}
-	</section>
+		<section id="poi" class="flex justify-center items-center my-20">
 
+			<h2 class="text-3xl font-semibold text-center my-10">De l'inspiration pour toutes les pièces de la maison !</h2>
 
-	<section id="products">
+			{{ ambiance 78 }}
 
-		{{ produit 30284452 0 30263553 30357979 30023921 0 28586524 30182055 , 0}}
+		</section>
 
-	</section>
+		<section id="products" class="my-20 flex justify-center items-center">
 
-	<section id="gallery" class="mb-20 z-1">
+			{{ produit 30284452 30263553 30357979 30023921 28586524 30182055 , 0}}
 
-		<div class="flex flex-row my-10">
-			<div class="pr-3">
-				<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
-				<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
-				</svg>
-			</div>
-			<div class="flex flex-col justify-around gap-2">
-				<h2 class="text-4xl font-semibold">Notre galerie de projets</h2>
-				<span class="text-xl tracking-tighter md:text-2xl font-semibold text-[#CA002D]">Découvrez notre galerie de projets tendance pour toute la maison</span>
-			</div>
-		</div>
+		</section>
 
-		<div class="flex justify-center mt-20">
+		<section id="inspirations" class="hidden md:block mb-20 max-w-[1280px] flex justify-center">
 
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-
+			<div class="flex items-center justify-between text-center pt-4 gap-1">
 				
-				<div id="col-1" class="flex flex-col gap-4">
-					
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/1.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
+				<div class="flex flex-col items-center basis-1/4">
+					<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+					   <a href="https://www.gedimat.fr/article-tendance-evasion-exotique-2328.htm">
+							   <img src="images/pieces/sdb-classique.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+					   </a>
 					</div>
-
-					 <div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/6.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/4.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-
+					<span class="pt-2 font-semibold">Classique Chic</span>
 				</div>
-
-				<div id="col-2" class="flex flex-col gap-4">
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/2.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
+	
+				<div class="flex flex-col items-center basis-1/4">
+					<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+					   <a href="https://www.gedimat.fr/article-tendance-loft-indus-2329.htm">
+							   <img src="images/pieces/sdb-loft.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+					   </a>
 					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/5.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/8.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
+					<span class="pt-2 font-semibold">Loft Indus</span>
 				</div>
-
-				<div id="col-3" class="flex flex-col gap-4">
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/3.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
+	
+				<div class="flex flex-col items-center basis-1/4">
+					<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+					   <a href="https://www.gedimat.fr/article-tendance-scandi-boheme-2330.htm">
+							   <img src="images/pieces/sdb-retro.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+					   </a>
 					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="#">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/7.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
+					<span class="pt-2 font-semibold">Rétro Cool</span>
+				</div>
+	
+				<div class="flex flex-col items-center basis-1/4">
+					<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl ">
+					   <a href="https://www.gedimat.fr/article-tendance-noir-et-blanc-2331.htm">
+							   <img src="images/pieces/sdb-noir.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+					   </a>
 					</div>
+					<span class="pt-2 font-semibold">Noir & Blanc</span>
+				</div>
+	
+		
+			
+				
+			</div>
+			
 
+	
+		</section>
+	
+		<section id="gallery" class="mb-20 z-1">
+
+
+			<div class="flex flex-row my-10">
+				<div class="pr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+					</svg>
+				</div>
+				<div class="flex flex-col justify-around gap-2">
+					<h2 class="text-4xl font-semibold">Nos projets salle de bains</h2>
+					<span class="text-xl tracking-tighter md:text-2xl font-semibold text-[#CA002D]">Trouvez l'inspiration avec nos projets</span>
 				</div>
 			</div>
-	    </div>
-
-		<div class="flex items-center justify-center py-20">
-			<a href="#">
-				<div class="lgBtn thin redBtnOutlined">Voir plus de projets</div>
-			</a>
-		</div>
-
-
-	</section>
+	
+			<div class="flex justify-center mt-20">
+	
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+	
+					
+					<div id="col-1" class="flex flex-col gap-4">
+						
+						<div class="relative overflow-hidden rounded-xl">
+							<a href="https://www.gedimat.fr/article-salle-de-bains-loft-industriel-un-style-au-caractere-bien-trempe-2316.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/1.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
+									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+									</svg>
+								</div>
+							</a>
+						</div>
+	
+			
+	
+	
+					</div>
+	
+					<div id="col-2" class="flex flex-col gap-4">
+	
+				
+	
+						<div class="relative overflow-hidden rounded-xl">
+							<a href="https://www.gedimat.fr/article-salle-de-bains-noir-et-blanc-un-espace-audacieux-chic-et-indemodable-2317.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/5.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
+									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+									</svg>
+								</div>
+							</a>
+						</div>
+	
+			
+	
+					</div>
+	
+					<div id="col-3" class="flex flex-col gap-4">
+	
+						<div class="relative overflow-hidden rounded-xl">
+							<a href="https://www.gedimat.fr/article-salle-de-bains-classique-chic-romantique-et-intemporelle-2315.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/3.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
+									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+									</svg>
+								</div>
+							</a>
+						</div>
+	
+						<div class="relative overflow-hidden rounded-xl">
+							<a href="https://www.gedimat.fr/article-salle-de-bains-retro-cool-une-ambiance-deliberement-originale-2318.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/7.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
+									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+									</svg>
+								</div>
+							</a>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+	
+		</section>
 
 
 	<section id="tendance_select" class="mb-3">
@@ -349,32 +365,6 @@ border-radius: 10px;
 				<span class="pt-2 font-semibold">Noir & Blanc</span>
 			</div>
 
-			<div class="flex flex-col items-center basis-1/4">
-				<div class="overflow-hidden rounded-md">
-				   <a href="https://www.gedimat.fr/article-tendance-retro-cool-2332.htm">
-				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/5.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
-				   </a>
-				</div>
-				<span class="pt-2 font-semibold">Rétro Cool</span>
-			</div>
-
-			<div class="flex flex-col items-center basis-1/4">
-				<div class="overflow-hidden rounded-md">
-				   <a href="https://www.gedimat.fr/article-tendance-design-epure-2333.htm">
-				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/6.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
-				   </a>
-				</div>
-				<span class="pt-2 font-semibold">Design épuré</span>
-			</div>
-
-			<div class="flex flex-col items-center basis-1/4">
-				<div class="overflow-hidden rounded-md">
-				   <a href="https://www.gedimat.fr/article-tendance-classique-chic-2334.htm">
-				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/7.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
-				   </a>
-				</div>
-				<span class="pt-2 font-semibold">Classique Chic</span>
-			</div>
 
 		</div>
 
@@ -462,8 +452,6 @@ border-radius: 10px;
 		<!-- #line 2 -->
 
 	</section>
-
-	
 	
 	
 	<section id="pieces_select" class="my-10"> 
@@ -516,12 +504,50 @@ border-radius: 10px;
 	</section>
 
 
+	<section id="book" class="my-20">
+		<div class="bannerBlock flex flex-wrap items-center gap-6">
+
+			<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/book/catalogue.jpg" alt="" class="rounded-md">
+
+
+			
+			<div class="flex flex-col justify-around items-center md:items-start gap-6">
+				<span class="text-2xl font-semibold text-center md:text-left">Découvrez le BOOK 2024 Tendances & Inspirations</span>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>Le guide des Tendances 2024</span>
+				</div>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>À consulter gratuitement</span>
+				</div>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>30 projets pour vos son espace de vie</span>
+				</div>
+
+				<a href="https://www.gedimat.fr/catalogues/Tendances-2024/#page/1" target="_blank"><div class="lgBtn thin redBtn">Découvrir le catalogue</div></a>
+			</div>
+
+		</div>
+	</section>
+
 
 	
 
 </div> <!-- #container -->
 
 </main> 
+
 
 
 </body>
