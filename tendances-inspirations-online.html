@@ -17,6 +17,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <style>
+#corps {
+	padding: 0rem !important;
+}
+
+#sticky-mobile {
+  z-index: 1000 !important; /* or a higher value if needed */
+}
 
 #sticky {
   z-index: 1000 !important; /* or a higher value if needed */
@@ -114,25 +121,87 @@ border-radius: 10px;
 
 <body class="overflow-x-hidden">
 
+  <section id="sticky-mobile" class="fixed bottom-24 z-900 w-full block md:hidden ">
+    <div class="redBgLg rounded-t-xl text-white h-[70px] grid grid-cols-3 gap-8 justify-center items-center py-12 pb-20 px-1">
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-calendar fa-xl"></i>
+          <span>Rendez-vous</span>
+        </div>
+      </a>
+
+      <a href="/current-store.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-file-lines fa-xl"></i>
+          <span>Fiche magasin</span>
+        </div>
+      </a>
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-envelope fa-xl"></i>
+          <span>Ecrire</span>
+        </div>
+      </a>
+
+    </div>
+
+  </section>
+
+	<section id="sticky-mobile" class="fixed bottom-24 z-900 w-full block md:hidden ">
+		<div class="redBgLg rounded-t-xl text-white h-[70px] grid grid-cols-3 gap-8 justify-center items-center py-12 pb-20 px-1">
+
+			<a href="/contact.php" class="hover:text-rose-950">
+				<div class="flex flex-col justify-center items-center gap-8">
+					<i class="fa-regular fa-calendar fa-xl"></i>
+					<span>Rendez-vous</span>
+				</div>
+			</a>
+
+			<a href="/current-store.php" class="hover:text-rose-950">
+				<div class="flex flex-col justify-center items-center gap-8">
+					<i class="fa-regular fa-file-lines fa-xl"></i>
+					<span>Fiche magasin</span>
+				</div>
+			</a>
+
+			<a href="/contact.php" class="hover:text-rose-950">
+				<div class="flex flex-col justify-center items-center gap-8">
+					<i class="fa-regular fa-envelope fa-xl"></i>
+					<span>Ecrire</span>
+				</div>
+			</a>
+
+		</div>
+
+	</section>
+
+	
+
+
 	
 <main class="container mx-auto relative pr-0 pl-0">
 
 	<section id="sticky" class="fixed top-[280px] -right-2 cursor-pointer hidden md:block">
 	
-		<div class="redBgLg flex rounded-l-xl flex flex-col justify-start items-start text-white px-6 py-6 gap-6 w-[250px]">
+		<div class="redBgLg flex rounded-l-xl flex flex-col text-white px-6 py-6 gap-6 w-[250px]">
 				
-			<a href="/contact.php" class="hover:text-rose-950">
-				<div class="flex gap-4 items-center"><i class="fa-regular fa-calendar fa-xl pr-1"></i><span>Prendre rendez-vous</span></div>
+			<a href="/contact.php" class="hover:text-rose-950 flex ">
+				<div class="flex items-center"><i class="fa-regular fa-calendar fa-xl pr-8 w-[40px] text-center"></i><span>Prendre rendez-vous</span></div>
 			</a>
 			<a href="/current-store.php" class="hover:text-rose-950">
-				<div class="flex gap-4 items-center"><i class="fa-regular fa-file-lines fa-xl pr-1"></i><span>Voir la fiche magasin</span></div>
+				<div class="flex items-center"><i class="fa-regular fa-file-lines fa-xl pr-8 w-[40px] text-center"></i><span>Voir la fiche magasin</span></div>
 			</a>
 			<a href="/contact.php" class="hover:text-rose-950">
-				<div class="flex gap-4 items-center"><i class="fa-regular fa-envelope fa-xl pr-1"></i><span>Ecrire au magasin</span></div>
+				<div class="flex items-center"><i class="fa-regular fa-envelope fa-xl pr-8 w-[40px] text-center"></i><span>Ecrire au magasin</span></div>
 			</a>
 		</div>
 	
 	</section>
+
+	
+
 
 	</div>
 
@@ -182,7 +251,7 @@ border-radius: 10px;
 	</section>
 	
 
-	<section id="slideshowMobile" class="block md:hidden mb-4 w-full z-1 my-10">
+	<section id="slideshowMobile" class="block md:hidden mb-4 w-full z-1 my-10 pb-10">
 		<div class="flex no-wrap overflow-x-scroll pb-4 gap-4 touch-auto">
 
 			<div class="flex flex-col items-center">
@@ -518,138 +587,6 @@ border-radius: 10px;
 	</section>
 
 
-	<section id="gallery" class="mb-20 z-1">
-
-
-		<div class="flex flex-row my-10">
-			<div class="pr-3">
-				<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
-				<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
-				</svg>
-			</div>
-			<div class="flex flex-col justify-around gap-2">
-				<h2 class="text-4xl font-semibold">Notre galerie de projets</h2>
-				<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Découvrez notre galerie de projets tendance pour toute la maison</span>
-			</div>
-		</div>
-
-		<div class="flex justify-center mt-20">
-
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-
-				
-				<div id="col-1" class="flex flex-col gap-4">
-					
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-salle-de-bains-loft-industriel-un-style-au-caractere-bien-trempe-2316.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/1.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					 <div class="relative overflow-hidden rounded-xl">
-						<a href="/article-terrasse-retro-cool-un-espace-vintage-qui-swingue-2312.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/6.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-terrasse-noir-et-blanc-une-terrasse-chic-et-confortable-2314.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/4.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-
-				</div>
-
-				<div id="col-2" class="flex flex-col gap-4">
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-terrasse-design-epure-un-espace-minimaliste-aux-tons-neutres-2311.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/2.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-salle-de-bains-noir-et-blanc-un-espace-audacieux-chic-et-indemodable-2317.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/5.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-terrasse-scandinave-boheme-l-esprit-ibiza-chez-soi-2319.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/8.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-				</div>
-
-				<div id="col-3" class="flex flex-col gap-4">
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-salle-de-bains-classique-chic-romantique-et-intemporelle-2315.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/3.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="relative overflow-hidden rounded-xl">
-						<a href="/article-salle-de-bains-retro-cool-une-ambiance-deliberement-originale-2318.htm">
-							<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/7.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-							<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-								<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-								</svg>
-							</div>
-						</a>
-					</div>
-
-				</div>
-			</div>
-	    </div>
-
-		<div class="flex items-center justify-center py-20">
-			<a href="/article-inspiration-salle-de-bains-2024-2339.htm">
-				<div class="lgBtn thin redBtnOutlined">Voir plus de projets</div>
-			</a>
-		</div>
-
-
-	</section>
-
 </div> <!-- #container -->
 
 </main> 
@@ -744,7 +681,16 @@ swiper.on('slideChange', function () {
 </script>
 
 
-
+<!-- <script>
+	window.addEventListener('scroll', function() {
+		var section = document.getElementById('sticky-mobile');
+		if (window.scrollY > 200) {
+			section.style.display = 'none';
+		} else {
+			section.style.display = 'block';
+		}
+	});
+	</script> -->
 
 </body>
 

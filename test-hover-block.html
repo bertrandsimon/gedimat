@@ -1,0 +1,266 @@
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- <meta charset="utf-8" /> -->
+<!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+<link href="https://fonts.googleapis.com" rel="preconnect" />
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+<!-- HOVER -->
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" referrerpolicy="no-referrer" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- SWIPER -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<style>
+
+#sticky {
+  z-index: 1000 !important; /* or a higher value if needed */
+  transition: margin-right 0.4s ease-out !important;
+    margin-right: -200px; /* Initial retracted position */
+}
+
+#sticky:hover {
+  z-index: 1000 !important;
+  margin-right: -12px !important; /* Expanded position on hover */
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align:center !important;
+}
+  .swiper-pagination-bullet-active {
+    background-color: #CA002D !important;
+}
+
+.lgBtn {
+  display: inline-block;
+  border-radius: 8px;
+  color:white;
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align:center;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  transition: stroke 0.3s;
+}
+.thin {
+  padding: 8px 16px;
+}
+
+.redBgLg { background-color: #CA002D;}
+.redBtn {
+  background-color: #CA002D;
+}
+.redBtn:hover {
+  background-color: #AE0027;
+}
+
+.redBtnOutlined {
+  border: 1px solid #CA002D;
+  color: #CA002D;
+}
+.redBtnOutlined:hover {
+  border: 1px solid #AE0027;
+  color: #AE0027;
+  background-color: #FFF3F3;
+}
+
+.greyBtn {
+  background-color: #B8AEA7;
+}
+.greyBtn:hover {
+  background-color: #9D948E;
+}
+
+.swiper {
+    width: 1060px;
+    height: 100%;
+}
+.prevBtn, .nextBtn {
+padding:4px;
+transition: background-color 0.3s, box-shadow 0.3s;
+}
+.prevBtn:hover, .nextBtn:hover {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h4{
+font-size:16px !important;
+font-weight: 500;;
+}
+.greyBg {
+background-color: #F7F6F5;
+padding:10px;
+border-radius: 10px;
+}
+
+.bannerBlock {
+background-color: #F7F6F5;
+padding:12px;
+border-radius: 10px;
+}
+
+/* .container #slideshowMobile {
+    margin-left: -60px;
+    margin-right: -60px;
+} */
+
+</style>
+
+<body class="overflow-x-hidden">
+
+  <section id="sticky-mobile" class="fixed bottom-24 z-900 w-full block md:hidden ">
+    <div class="redBgLg rounded-t-xl text-white h-[70px] grid grid-cols-3 gap-8 justify-center items-center py-12 pb-20 px-1">
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-calendar fa-xl"></i>
+          <span>Rendez-vous</span>
+        </div>
+      </a>
+
+      <a href="/current-store.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-file-lines fa-xl"></i>
+          <span>Fiche magasin</span>
+        </div>
+      </a>
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col justify-center items-center gap-8">
+          <i class="fa-regular fa-envelope fa-xl"></i>
+          <span>Ecrire</span>
+        </div>
+      </a>
+
+    </div>
+
+  </section>
+
+	
+	<main class="container mx-auto relative pr-0 pl-0">
+
+	
+		<div class="redBgLg flex rounded-l-xl flex flex-col text-white px-6 py-6 gap-6 w-[250px]">
+				
+			<a href="/contact.php" class="hover:text-rose-950 flex ">
+				<div class="flex items-center"><i class="fa-regular fa-calendar fa-xl pr-2 w-[40px] text-center"></i><span>Prendre rendez-vous</span></div>
+			</a>
+			<a href="/current-store.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-file-lines fa-xl pr-2 w-[40px] text-center"></i><span>Voir la fiche magasin</span></div>
+			</a>
+			<a href="/contact.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-envelope fa-xl pr-2 w-[40px] text-center"></i><span>Ecrire au magasin</span></div>
+			</a>
+		</div>
+	
+	
+
+	
+
+
+
+
+</main>
+<script>
+
+let slideCount = 1;
+
+const swiperTxts = 
+	{	
+		title1: 'Evasion Exotique',
+		title2: 'Loft Indus',
+		title3: 'Scandi Bohème',
+		title4: 'Noir & Blanc',
+		title5: 'Rétro Cool',
+		title6: 'Design épuré',
+		title7: 'Classique Chic',
+		subTxt1: 'La nature, source inépuisable d’inspiration et d’émerveillement, s’invite dans votre maison et dans votre jardin pour vous offrir au quotidien une escapade exotique.',
+		subTxt2: 'Il n’est pas nécessaire d’habiter un atelier d’artiste ou un loft à New York pour choisir une déco de style industriel. Voici comment l’adopter !',
+		subTxt3: 'Transformez votre espace de vie en un havre de détente, dans lequel chaque élément respire la joie de vivre et la sérénité. Et laissez-vous porter par la tendance cocooning du moment...',
+		subTxt4: 'À la fois sage et audacieux, tout est question d’équilibre entre la sobriété raffinée du blanc et l’audace élégante du noir. Cette association apportera à votre habitation un style chic et un design intemporel dignes des intérieurs de grand standing.',
+		subTxt5: 'De l’orange à gogo, des motifs vintage et des objets relookés : les années 1970 reviennent en force avec leur style dynamique et coloré. C’est une fusion vibrante du passé et du présent qui offre aux teintes vives et à l’optimisme caractéristique de cette époque un époustouflant retour aux premières places des podiums.',
+		subTxt6: 'Envie d’un bel espace épuré et élégant propice à la détente ? C’est en coordonnant avec justesse les couleurs, les matériaux, le mobilier et les accessoires qu’on donne à l’ensemble une atmosphère pleine de style.',
+		subTxt7: 'Le classique chic - caractérisé par des lignes courbes et gracieuses et des motifs floraux - s’invite dès la porte d’entrée aux détails raffinés. Atmosphère douce et distinguée aux allures de boudoir, un parfait mélange d’élégance, de raffinement et de bon goût !',
+		link1:'https://www.gedimat.fr/article-tendance-evasion-exotique-2328.htm',
+		link2:'https://www.gedimat.fr/article-tendance-loft-indus-2329.htm',
+		link3:'https://www.gedimat.fr/article-tendance-scandi-boheme-2330.htm',
+		link4:'https://www.gedimat.fr/article-tendance-noir-et-blanc-2331.htm',
+		link5:'https://www.gedimat.fr/article-tendance-retro-cool-2332.htm',
+		link6:'https://www.gedimat.fr/article-tendance-design-epure-2333.htm',
+		link7:'https://www.gedimat.fr/article-tendance-classique-chic-2334.htm',
+	};
+
+
+document.querySelector('.nextBtn').addEventListener('click', () => {
+	if (slideCount < 7 )
+	{ 
+		slideCount++;
+		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
+		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
+		document.getElementById('slideLink').setAttribute('href', swiperTxts[`link${slideCount}`]);
+	}
+
+});
+
+document.querySelector('.prevBtn').addEventListener('click', () => {
+	if (slideCount > 1 )
+	{ slideCount--;
+		document.getElementById("swiperTitle").innerHTML =  swiperTxts[`title${slideCount}`];
+		document.getElementById("swiperSubTxt").innerHTML =  swiperTxts[`subTxt${slideCount}`];
+		document.getElementById('slideLink').setAttribute('href', swiperTxts[`link${slideCount}`]);
+	}
+
+});
+
+
+
+const swiper = new Swiper('.swiper', {
+
+ effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+  navigation: {
+    nextEl: '.nextBtn',
+    prevEl: '.prevBtn',
+  },
+  pagination: {
+    el: '#pagin',
+    type: 'bullets',
+	clickable: false,
+  },
+  paginationClickable: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  loop: false,
+
+});
+
+
+swiper.on('slideChange', function () {
+  // Increment or decrement slideCount based on the active slide index
+  slideCount = swiper.activeIndex + 1;
+
+  // Update content based on slideCount
+  document.getElementById("swiperTitle").innerHTML = swiperTxts[`title${slideCount}`];
+  document.getElementById("swiperSubTxt").innerHTML = swiperTxts[`subTxt${slideCount}`];
+  document.getElementById('slideLink').setAttribute('href', swiperTxts[`link${slideCount}`]);
+});
+
+		
+</script>
+
+
+
+
+</body>
+
+
+
