@@ -120,20 +120,20 @@ border-radius: 10px;
 
 <body class="overflow-x-hidden">
 
-	<section id="sticky-mobile" class="fixed top-40 right-0 z-900 block md:hidden">
-		<div class="redBgLg rounded-l-lg text-white flex justify-center items-center h-[50px] w-[48px] pt-2">
-	
-		  <a href="/contact.php" class="hover:text-rose-950">
-			<div class="flex flex-col h-full w-full gap-4 pt-4 items-center justify-center">
-			  <i class="fa-regular fa-calendar fa-xl"></i>
-			  <span>RDV</span>
-			</div>
-		  </a>
-	
-	
-		</div>
-	
-	  </section>
+ <section id="sticky-mobile" class="fixed top-40 right-0 z-900 block md:hidden">
+    <div class="redBgLg rounded-l-lg text-white flex justify-center items-center h-[50px] w-[48px] pt-2">
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col h-full w-full gap-4 pt-4 items-center justify-center">
+          <i class="fa-regular fa-calendar fa-xl"></i>
+          <span>RDV</span>
+        </div>
+      </a>
+
+
+    </div>
+
+  </section>
 
 	
 <main class="container mx-auto relative pr-0 pl-0">
@@ -170,14 +170,16 @@ border-radius: 10px;
 					</svg>
 				</div>
 				<div class="flex flex-col justify-around gap-2">
-					<h1 class="text-4xl font-semibold">Salle de bains Classique Chic</h1>
-					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Une salle de bains romantique et intemporelle</span>
-				
+					<h1 class="text-4xl font-semibold">Séjour Evasion Exotique</h1>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Un espace de vie sublimé par un escalier aux lignes aériennes</span>
+					
 				</div>
+
 			</div>
 
 			<div class="flex flex-col md:flex-row gap-12 md:items-center pb-14">
-				<p class="w-full md:w-[560px]">Les finitions en or brossé et le carrelage façon boiseries se conjuguent pour créer une ambiance élégante. Le carrelage effet parquet chevron évoquant le charme des hôtels particuliers est réveillé par la faïence toute fleurie dans la douche. Raffinement garanti !</p>
+				<p class="w-full md:w-[560px]">Opter pour le Design &Eacute;puré, c’est aussi remettre l’accent sur l’utilité des objets tout en conservant leur beauté : ici, le bois blond réchauffe avec élégance un beau volume lumineux habillé de blanc.</p>
+
 				<div class="flex items-center justify-start py-4">
 					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
 				</div>
@@ -185,22 +187,37 @@ border-radius: 10px;
 			
 
 		</section>
+	
+		<h2 class="text-3xl font-semibold text-left md:text-center flex justify-center md:justify-start">La simplicité cache bien son jeu !</h2>
+		<section id="poi" class="flex justify-center items-center my-10">
 
-		<h2 class="text-3xl font-semibold text-left md:text-center flex justify-center md:justify-start">Apportez l'élégance avec un meuble orné de poignées or</h2>
-		
-		<section id="poi" class="flex justify-center items-center my-20">
+			{{ ambiance 95 }}
 
-			{{ ambiance 73 }}
+		</section>
+
+		<section id="poi-2">
+
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-4 ">
+
+				<div id="col-1" class="flex justify-center items-center">
+					{{ ambiance 123 }}
+				</div>
+
+				<div id="col-2" class="flex justify-center items-center">
+					{{ ambiance 124 }}
+				</div>
+
+			</div>
 
 		</section>
 
 		<section id="products" class="my-20 flex justify-center items-center">
 
-			{{ produit 30182321 30290649 30229485 30360994 30362416 30397774 30146608 30355406 30043066 27520192 30056226 30355408 30355410, 0}}
+			{{ produit 30363672 27951439 30397011 26896441 30363676 30397114, 0}}
 
 		</section>
 
-	
+
 	
 		<section id="gallery" class="mb-20 z-1">
 
@@ -212,7 +229,7 @@ border-radius: 10px;
 					</svg>
 				</div>
 				<div class="flex flex-col justify-around gap-2">
-					<h2 class="text-4xl font-semibold">Inspirations pour votre Salle de bains</h2>
+					<h2 class="text-4xl font-semibold">Nos projets salon</h2>
 					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Trouvez l'inspiration avec nos projets</span>
 				</div>
 			</div>
@@ -225,30 +242,8 @@ border-radius: 10px;
 					<div id="col-1" class="flex flex-col gap-4">
 						
 						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-loft-industriel-un-style-au-caractere-bien-trempe-2316.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-loft.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-									</svg>
-								</div>
-							</a>
-						</div>
-
-						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-retro-cool-une-ambiance-deliberement-originale-2318.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-retro.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-									</svg>
-								</div>
-							</a>
-						</div>
-
-						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-scandi-boheme-un-mariage-harmonieux-des-tons-sable-et-terracotta-2364.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-scandi.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+							<a href="/article-sejour-scandi-boheme-un-salon-lumineux-et-decontracte-aux-accents-dibiza-2355.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/salon/1.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
 									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
 										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -267,8 +262,8 @@ border-radius: 10px;
 				
 	
 						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-noir-et-blanc-un-espace-audacieux-chic-et-indemodable-2317.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-noir.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+							<a href="/article-sejour-noir-et-blanc-un-salon-style-pour-un-espace-de-caractere-2354.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/salon/2.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
 									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
 										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -278,8 +273,8 @@ border-radius: 10px;
 						</div>
 
 						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-design-epure-epuree-et-audacieuse-2362.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-design.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+							<a href="/article-sejour-design-epure-la-simplicite-cache-bien-son-jeu-2352.htm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/salon/4.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
 									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
 										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -295,8 +290,8 @@ border-radius: 10px;
 					<div id="col-3" class="flex flex-col gap-4">
 	
 						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-classique-chic-romantique-et-intemporelle-2315.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-classique.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+							<a href="/article-sejour-retro-cool-mariage-ose-des-formes-et-des-motifs-2353.htmm">
+								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/salon/3.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
 									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
 										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -305,16 +300,7 @@ border-radius: 10px;
 							</a>
 						</div>
 	
-						<div class="relative overflow-hidden rounded-xl">
-							<a href="/article-salle-de-bains-noir-et-blanc-graphique-et-elegante-2363.htm">
-								<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/sdb/sdb-noir2.jpg" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-								<div class="absolute bottom-5 right-5 h-12 w-12 bg-slate-50 rounded-md flex justify-center items-center hover:scale-110 hover:bg-red-700 hover:text-white transition duration-500 cursor-pointer">
-									<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-										<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-									</svg>
-								</div>
-							</a>
-						</div>
+				
 	
 					</div>
 				</div>
@@ -518,7 +504,7 @@ border-radius: 10px;
 				
 					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/3.jpg" alt="">
 					<span class="text-xl font-semibold">Cuisine</span>
-					<a href="/menu-inspirations-pour-votre-sejour-184.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+					<a href="/menu-inspirations-pour-votre-cuisine-185.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
 			</div>
 
 			<div class="flex flex-col justify-center items-center greyBg gap-3">
@@ -539,12 +525,11 @@ border-radius: 10px;
 				
 					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/6.jpg" alt="">
 					<span class="text-xl font-semibold">Extérieur</span>
-					<a href="/article-inspiration-exterieur-2024-2340.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+					<a href="/menu-inspirations-pour-votre-exterieur-188.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
 			</div>
 		
 		</div>
 	</section>
-
 
 
 	<section id="book" class="my-20">
