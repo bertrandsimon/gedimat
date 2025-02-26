@@ -1,0 +1,259 @@
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<link href="https://fonts.googleapis.com" rel="preconnect" />
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+<!-- HOVER -->
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" referrerpolicy="no-referrer" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<style>
+.bandeauBas__grid {
+	gap : 20px !important;
+}
+
+#ariane {
+	padding: 2rem !important;
+}
+
+#sticky-mobile {
+  z-index: 1000 !important; /* or a higher value if needed */
+}
+
+#sticky {
+  z-index: 1000 !important; /* or a higher value if needed */
+  transition: margin-right 0.4s ease-out !important;
+    margin-right: -200px; /* Initial retracted position */
+}
+
+#sticky:hover {
+  z-index: 1000 !important;
+  margin-right: -12px !important; /* Expanded position on hover */
+}
+
+
+.lgBtn {
+  display: inline-block;
+  border-radius: 8px;
+  color:white;
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align:center;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  transition: stroke 0.3s;
+}
+.thin {
+  padding: 8px 16px;
+}
+
+.redBgLg { background-color: #CA002D;}
+.redBtn {
+  background-color: #CA002D;
+}
+.redBtn:hover {
+  background-color: #AE0027;
+}
+
+.redBtnOutlined {
+  border: 1px solid #CA002D;
+  color: #CA002D;
+}
+.redBtnOutlined:hover {
+  border: 1px solid #AE0027;
+  color: #AE0027;
+  background-color: #FFF3F3;
+}
+
+.greyBtn {
+  background-color: #B8AEA7;
+}
+.greyBtn:hover {
+  background-color: #9D948E;
+}
+
+.prevBtn, .nextBtn {
+padding:4px;
+transition: background-color 0.3s, box-shadow 0.3s;
+}
+.prevBtn:hover, .nextBtn:hover {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h4{
+font-size:16px !important;
+font-weight: 500;;
+}
+.greyBg {
+background-color: #F7F6F5;
+padding:10px;
+border-radius: 10px;
+}
+
+.bannerBlock {
+background-color: #F7F6F5;
+padding:12px;
+border-radius: 10px;
+}
+
+
+
+</style>
+
+<body class="overflow-x-hidden">
+
+ <section id="sticky-mobile" class="fixed top-40 right-0 z-900 block md:hidden">
+    <div class="redBgLg rounded-l-lg text-white flex justify-center items-center h-[50px] w-[48px] pt-2">
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col h-full w-full gap-4 pt-4 items-center justify-center">
+          <i class="fa-regular fa-calendar fa-xl"></i>
+          <span>RDV</span>
+        </div>
+      </a>
+
+
+    </div>
+
+  </section>
+
+	
+<main class="container mx-auto relative pr-0 pl-0">
+
+	<section id="sticky" class="fixed top-[280px] -right-2 cursor-pointer hidden md:block">
+	
+		<div class="redBgLg flex rounded-l-xl flex flex-col text-white px-6 py-6 gap-6 w-[250px]">
+				
+			<a href="/contact.php" class="hover:text-rose-950 flex ">
+				<div class="flex items-center"><i class="fa-regular fa-calendar fa-xl pr-8 w-[40px] text-center"></i><span>Prendre rendez-vous</span></div>
+			</a>
+			<a href="/current-store.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-file-lines fa-xl pr-8 w-[40px] text-center"></i><span>Voir la fiche magasin</span></div>
+			</a>
+			<a href="/contact.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-envelope fa-xl pr-8 w-[40px] text-center"></i><span>Ecrire au magasin</span></div>
+			</a>
+		</div>
+	
+	</section>
+
+	</div>
+
+
+	<div class="relative z-10 container mx-auto max-w-[1280px] isolate">
+
+
+		<section id="title" class="relative z-20">
+
+			<div class="flex flex-row my-10">
+				<div class="pr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+					</svg>
+				</div>
+				<div class="flex flex-col justify-around gap-2">
+					<h1 class="text-4xl font-semibold">Chambre Évasion Exotique</h1>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Envie d'ailleurs !</span>
+					
+				</div>
+
+			</div>
+
+			<div class="grid grid-cols-1 sm:grid-cols-4 gap-12 md:items-center pb-14 sm:-mt-36">
+				<div class="col-span-2">
+                     <p>Plongez dans un univers apaisant aux nuances naturelles et douces, parfait pour un sommeil de rêve ! Le papier peint végétal et les pièces décoratives ethniques vous invitent au voyage. Ajoutez-y des plantes vertes pour une touche tropicale pleine de fraîcheur !</p>
+                </div>
+				<div class="flex items-center justify-start py-4">
+					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
+				</div>
+                <div class="flex items-center justify-end">
+                    <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/chambre.png" alt="Chambre avant rénovation">
+                </div>
+			</div>
+		
+
+		</section>
+	
+	
+		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
+
+			{{ ambiance 168 }}
+
+		</section>
+
+	
+
+		
+
+
+	
+
+</div> <!-- #container -->
+
+</main> 
+
+<section id="retrouvez" class="relative z-0 w-full bg-[#F2F2F2] h-full sm:-mt-96">
+
+    <div class="container mx-auto max-w-[1280px] isolate pt-4 sm:pt-[200px]">
+        <div class="flex flex-row my-10">
+            <div class="pr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+                <path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+                </svg>
+            </div>
+            <div class="flex flex-col justify-around gap-2">
+                <h1 class="text-4xl font-semibold">Retrouvez aussi cette chambre</h1>
+                <span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">En tendance Rétro Cool</span>
+                
+            </div>
+        </div>
+    
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-40">
+    
+            <div>
+              
+                    <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/mini/chambre-retro-cool.jpg" alt="Tendance alternative"
+                    class="rounded-md">
+               
+               
+            </div>
+    
+            <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
+    
+                <div>
+                    <p class="uppercase font-extralight">inspiration</p>
+                    <p class="text-3xl font-medium ">Rétro Cool</p>
+                </div>
+    
+                <div>
+                    <p>C’est une fusion vibrante du passé et du présent.</p>
+                </div>
+    
+                <div class="flex items-center justify-start py-4">
+                    <a href="/article-chambre-retro-cool-2518.htm"><div class="lgBtn thin redBtn">Voir la tendance</div></a>
+                </div>
+                
+            </div>
+    
+           
+    
+        </div>
+    </div> 
+    <!-- #container -->
+  
+
+
+</section>
+
+
+
+</body>
+
+
+
