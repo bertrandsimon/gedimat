@@ -19,6 +19,20 @@
 
 
 <style>
+
+.slider-example-opacity-and-size {
+    --default-handle-width: 100px;
+  }
+  img-comparison-slider:focus,
+img-comparison-slider:focus-visible,
+img-comparison-slider *:focus,
+img-comparison-slider *:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+  /* .slider-example-opacity-and-size:focus {
+    --default-handle-opacity: 0;
+  } */
 .bandeauBas__grid {
 	gap : 20px !important;
 }
@@ -186,7 +200,7 @@ border-radius: 10px;
 	
 	
 		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
-      <img-comparison-slider>
+      <img-comparison-slider class="slider-example-opacity-and-size rounded-md">
           <img slot="first" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" />
           <img slot="second" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-loft-contemporain.jpg" />
       </img-comparison-slider>
