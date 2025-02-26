@@ -1,6 +1,12 @@
 <script src="https://cdn.tailwindcss.com"></script>
-
-
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+/>
 <link href="https://fonts.googleapis.com" rel="preconnect" />
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
@@ -180,8 +186,11 @@ border-radius: 10px;
 	
 	
 		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
-
-			<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" alt="duel slider">
+      <img-comparison-slider>
+          <img slot="first" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" />
+          <img slot="second" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-loft-contemporain.jpg" />
+      </img-comparison-slider>
+			<!-- <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" alt="duel slider"> -->
 
 		</section>
 
