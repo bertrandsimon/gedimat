@@ -1,6 +1,12 @@
 <script src="https://cdn.tailwindcss.com"></script>
-
-
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+/>
 <link href="https://fonts.googleapis.com" rel="preconnect" />
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
@@ -13,6 +19,27 @@
 
 
 <style>
+  .custom-animated-handle {
+    transition: transform 0.2s;
+    filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.5));
+  }
+
+  .slider-with-animated-handle:hover .custom-animated-handle {
+    transform: scale(1.2);
+  }
+.slider-example-opacity-and-size {
+    --default-handle-width: 100px;
+  }
+  img-comparison-slider:focus,
+img-comparison-slider:focus-visible,
+img-comparison-slider *:focus,
+img-comparison-slider *:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+  /* .slider-example-opacity-and-size:focus {
+    --default-handle-opacity: 0;
+  } */
 .bandeauBas__grid {
 	gap : 20px !important;
 }
@@ -158,21 +185,19 @@ border-radius: 10px;
 					</svg>
 				</div>
 				<div class="flex flex-col justify-around gap-2">
-					<h1 class="text-4xl font-semibold">Chambre Rétro Cool</h1>
-					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Seventies vibes</span>
+					<h1 class="text-4xl font-semibold">Une même pièce</h1>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Pour deux tendances</span>
 					
 				</div>
 
 			</div>
 
-			<div class="grid grid-cols-1 sm:grid-cols-4 gap-12 md:items-center pb-14 sm:-mt-36">
+			<div class="grid grid-cols-1 sm:grid-cols-3 gap-12 md:items-center sm:-mt-36">
 				<div class="col-span-2">
-                     <p>Osez la créativité pour une chambre d’enfant pleine de couleurs vives et de motifs rétro. Le mobilier aux lignes simples et arrondies avec des touches de bois naturel évoque le style vintage tout en restant fonctionnel. Chaque coin de la chambre invite au jeu et au rêve, offrant un refuge ludique et stylé.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit turpis lacus, sed mattis orci porttitor eu. Maecenas vel dui dictum, tempor enim quis</p>
                 </div>
-				<div class="flex items-center justify-start py-4">
-					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
-				</div>
-                <div class="flex items-center justify-end">
+			
+                <div class="flex items-center justify-center sm:justify-end pb-36 sm:pb-0">
                     <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/2/chambre.png" alt="Chambre avant rénovation">
                 </div>
 			</div>
@@ -182,9 +207,14 @@ border-radius: 10px;
 	
 	
 		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
-
-			{{ ambiance 169 }}
-
+      <img-comparison-slider class="slider-example-opacity-and-size slider-with-animated-handle rounded-md">
+          <img slot="first" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-chambre-evasion-exotique.jpg" />
+          <img slot="second" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-chambre-retro-cool.jpg" />
+          <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+            <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+          </svg>
+        </img-comparison-slider>
+		
 		</section>
 
 	
@@ -200,47 +230,74 @@ border-radius: 10px;
 
 <section id="retrouvez" class="relative z-0 w-full bg-[#F2F2F2] h-full sm:-mt-96">
 
-    <div class="container mx-auto max-w-[1280px] isolate pt-4 sm:pt-[200px]">
-        <div class="flex flex-row my-10">
-            <div class="pr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
-                <path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
-                </svg>
-            </div>
-            <div class="flex flex-col justify-around gap-2">
-                <h1 class="text-4xl font-semibold">Retrouvez aussi cette chambre</h1>
-                <span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">En tendance Évasion Exotique</span>
-                
-            </div>
-        </div>
+    <div class="container mx-auto max-w-[1280px] isolate pt-4 sm:pt-[240px]">
+     
     
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-40">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 pb-40">
     
-            <div>
-              
-                    <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/mini/chambre-evasion-exotique.jpg" alt="Tendance alternative"
-                    class="rounded-md">
-               
-               
-            </div>
-    
+        
+            <!-- blck 1 -->
             <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
     
                 <div>
                     <p class="uppercase font-extralight">inspiration</p>
-                    <p class="text-3xl font-medium ">Évasion Exotique
-                    </p>
+                    <p class="text-3xl font-medium ">
+                      Évasion Exotique</p>
                 </div>
     
-                <div>
-                    <p>La nature, source inépuisable d’inspiration et d’émerveillement.</p>
-                </div>
+             
     
                 <div class="flex items-center justify-start py-4">
-                    <a href="/article-chambre-evasion-exotique-2519.htm"><div class="lgBtn thin redBtn">Voir la tendance</div></a>
+                    <a href="/article-chambre-evasion-exotique-2519.htm"><div class="lgBtn thin redBtn">Voir le projet</div></a>
                 </div>
                 
+            </div> 
+            <!-- #blck 1 -->
+
+            <!-- blck 2 -->
+            <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
+    
+              <div>
+                  <p class="font-extralight">Plongez dans un univers apaisant aux nuances naturelles et douces, parfait pour un sommeil de rêve ! </p>
+              </div>
+  
+              
+              
+          </div> 
+          <!-- #blck 2 -->
+
+             <!-- blck 3 -->
+             <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
+    
+              <div>
+                  <p class="uppercase font-extralight">inspiration</p>
+                  <p class="text-3xl font-medium ">Rétro Cool</p>
+              </div>
+  
+              
+  
+              <div class="flex items-center justify-start py-4">
+                  <a href="/article-chambre-retro-cool-2518.htm"><div class="lgBtn thin redBtn">Voir la tendance</div></a>
+              </div>
+              
+          </div> 
+          <!-- #blck 3 -->
+
+          <!-- blck 4 -->
+          <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
+  
+            <div>
+                <p class="font-extralight">Osez la créativité pour une chambre d’enfant pleine de couleurs vives et de motifs rétro. </p>
             </div>
+
+            
+            
+        </div> 
+        <!-- #blck 4 -->
+
+          
+
+      
     
            
     

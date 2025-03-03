@@ -19,7 +19,14 @@
 
 
 <style>
+  .custom-animated-handle {
+    transition: transform 0.2s;
+    filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.5));
+  }
 
+  .slider-with-animated-handle:hover .custom-animated-handle {
+    transform: scale(1.2);
+  }
 .slider-example-opacity-and-size {
     --default-handle-width: 100px;
   }
@@ -178,8 +185,8 @@ border-radius: 10px;
 					</svg>
 				</div>
 				<div class="flex flex-col justify-around gap-2">
-					<h1 class="text-4xl font-semibold">Une même pièce</h1>
-					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Pour deux tendances</span>
+					<h1 class="text-4xl font-semibold">Un coin détente dans mon jardin</h1>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">1 terrasse, 2 inspirations</span>
 					
 				</div>
 
@@ -187,11 +194,12 @@ border-radius: 10px;
 
 			<div class="grid grid-cols-1 sm:grid-cols-3 gap-12 md:items-center sm:-mt-36">
 				<div class="col-span-2">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit turpis lacus, sed mattis orci porttitor eu. Maecenas vel dui dictum, tempor enim quis</p>
+                     <p>Vous souhaitez aménager votre terrasse ? <br>Découvrez ci-dessous nos 2 tendances et tous les produits qui les composent.
+                    </p>
                 </div>
 			
                 <div class="flex items-center justify-center sm:justify-end pb-36 sm:pb-0">
-                    <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/terrasse.png" alt="Terrasse avant rénovation">
+                    <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/2/terrasse.png" alt="Terrasse avant rénovation">
                 </div>
 			</div>
 		
@@ -200,12 +208,14 @@ border-radius: 10px;
 	
 	
 		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
-      <img-comparison-slider class="slider-example-opacity-and-size rounded-md">
+      <img-comparison-slider class="slider-example-opacity-and-size slider-with-animated-handle rounded-md">
           <img slot="first" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" />
           <img slot="second" src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-loft-contemporain.jpg" />
-      </img-comparison-slider>
-			<!-- <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/poi-terrasse-evasion-exotique.jpg" alt="duel slider"> -->
-
+          <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+            <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+          </svg>
+        </img-comparison-slider>
+		
 		</section>
 
 	
@@ -232,13 +242,14 @@ border-radius: 10px;
     
                 <div>
                     <p class="uppercase font-extralight">inspiration</p>
-                    <p class="text-3xl font-medium ">Loft Contemporain</p>
+                    <p class="text-3xl font-medium ">
+                      Évasion Exotique</p>
                 </div>
     
              
     
                 <div class="flex items-center justify-start py-4">
-                    <a href="/article-terrasse-loft-contemporain-2513.htm"><div class="lgBtn thin redBtn">Voir la tendance</div></a>
+                    <a href="/article-terrasse-evasion-exotique-2512.htm"><div class="lgBtn thin redBtn">Voir le projet</div></a>
                 </div>
                 
             </div> 
@@ -248,7 +259,7 @@ border-radius: 10px;
             <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
     
               <div>
-                  <p>C’est une fusion vibrante du passé et du présent qui offre aux teintes vives et à l’optimisme caractéristique de cette époque un époustouflant retour aux premières places des podiums.</p>
+                  <p class="font-extralight">Ressourcez-vous dans ce havre de paix où plantes et déco composent une ambiance zen unique !</p>
               </div>
   
               
@@ -267,7 +278,7 @@ border-radius: 10px;
               
   
               <div class="flex items-center justify-start py-4">
-                  <a href="/article-terrasse-loft-contemporain-2513.htm"><div class="lgBtn thin redBtn">Voir la tendance</div></a>
+                  <a href="/article-terrasse-loft-contemporain-2513.htm"><div class="lgBtn thin redBtn">Voir le projet</div></a>
               </div>
               
           </div> 
@@ -277,7 +288,7 @@ border-radius: 10px;
           <div class="col-span-1 bg-white rounded-xl p-8 flex flex-col justify-around gap-4">
   
             <div>
-                <p>Une fusion parfaite entre l’esthétique industrielle et la fonctionnalité contemporaine.</p>
+                <p class="font-extralight">Imaginez un jardin résolument contemporain où la robustesse du métal et du béton s'harmonise avec la chaleur des nuances boisées.</p>
             </div>
 
             
