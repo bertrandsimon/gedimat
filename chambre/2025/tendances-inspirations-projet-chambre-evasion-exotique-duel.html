@@ -169,10 +169,10 @@ border-radius: 10px;
 				<div class="col-span-2">
                      <p>Plongez dans un univers apaisant aux nuances naturelles et douces, parfait pour un sommeil de rêve ! Le papier peint végétal et les pièces décoratives ethniques vous invitent au voyage. Ajoutez-y des plantes vertes pour une touche tropicale pleine de fraîcheur !</p>
                 </div>
-				<div class="flex items-center justify-start py-4">
+				<div class="flex items-center justify-start py-4 hidden sm:block">
 					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
 				</div>
-                <div class="flex items-center justify-end">
+                <div class="flex items-center justify-end hidden sm:block">
                     <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/2/chambre.png" alt="Chambre avant rénovation">
                 </div>
 			</div>
@@ -181,7 +181,7 @@ border-radius: 10px;
 		</section>
 	
 	
-		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
+		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 sm:-mt-32">
 
 			{{ ambiance 168 }}
 
@@ -193,6 +193,12 @@ border-radius: 10px;
 
 
 	
+
+<section class="w-full w-full flex item-center justify-center pb-10 sm:hidden">
+      <div class="flex items-center justify-center w-[300px]">
+        <a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
+      </div>
+  </section>
 
 </div> <!-- #container -->
 

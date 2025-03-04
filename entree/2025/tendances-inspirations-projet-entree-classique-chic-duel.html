@@ -169,10 +169,10 @@ border-radius: 10px;
 				<div class="col-span-2">
                      <p>Transformez votre entrée en un espace élégant et ultra accueillant ! Le mix parfait du bleu et du parquet à bâtons rompus crée une ambiance chaleureuse et donne de la profondeur à la pièce. L’entrée devient un joli cocon tendance où il fait bon vivre.</p>
                 </div>
-				<div class="flex items-center justify-start py-4">
+				<div class="flex items-center justify-start py-4 hidden sm:block">
 					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
 				</div>
-                <div class="flex items-center justify-end">
+                <div class="flex items-center justify-end hidden sm:block">
                     <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/avant/2/entree.png" alt="Entrée avant rénovation">
                 </div>
 			</div>
@@ -181,7 +181,7 @@ border-radius: 10px;
 		</section>
 	
 	
-		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 -mt-32">
+		<section id="poi" class="relative z-10 flex justify-center items-center mb-10 sm:-mt-32">
 
 			{{ ambiance 164 }}
 
@@ -193,6 +193,12 @@ border-radius: 10px;
 
 
 	
+
+<section class="w-full w-full flex item-center justify-center pb-10 sm:hidden">
+      <div class="flex items-center justify-center w-[300px]">
+        <a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
+      </div>
+  </section>
 
 </div> <!-- #container -->
 
