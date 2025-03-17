@@ -1,0 +1,12 @@
+[
+    {
+      "img_url": "https://picsum.photos/500/300?random=1",
+      "class": "contain",
+      "link": "#"
+    },
+    {
+      "img_url": "https://picsum.photos/500/300?random=2",
+      "class": "contain",
+      "link": "#"
+    }
+] 
