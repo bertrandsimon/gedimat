@@ -12,57 +12,18 @@
 	
 	<main class="container mx-auto relative pr-0 pl-0">
 
-  <div class="w-full flex justify-center items-center my-20"><h1>GALLERY TEST</h1></div>
+
 	
-  <div class="gap-8 columns-3" id="gallery">
-    <!-- We'll inject <a> and <img> elements here using JavaScript -->
+  <div class="gap-8 columns-1 sm:columns-3 py-10 px-40" id="gallery">
+    <!-- Gallery -->
   </div>
-  <!-- <div class="gap-8 columns-3" id="gallery">
-    <a href="#"><img class="rounded-md w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=1" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=2" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=3" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=4" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=5" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=6" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=7" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=8" /></a>
-    <a href="#"><img class="rounded-md w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=9" /></a>
-  </div> -->
+
 
 
 </main>
-<script src="/data/gallery.js"></script>
-<script>
- console.log("data : ", data)
-  
-  // Grab the gallery container
-  const gallery = document.getElementById('gallery');
-  
-  // Clear existing gallery items (if there are any in your real HTML)
-  gallery.innerHTML = '';
+<script src="/data/gallery-evasion-exotique.js"></script>
+<script src="/js/gallery.js"></script>
 
-  // Loop through the images array, creating new elements
-  
-  data.forEach(item => {
-    const { img_url, aspect, link } = item;
-
-    // Create an <a> element
-    const a = document.createElement('a');
-    a.href = link;
-
-    // Create an <img> element
-    const img = document.createElement('img');
-    img.src = img_url;
-    img.classList.add('rounded-md', 'w-full', 'mb-6');
-
-    // Set the object-fit based on the class property
-    img.style.objectFit = aspect || 'cover';
-
-    // Append <img> to <a>, then <a> to #gallery
-    a.appendChild(img);
-    gallery.appendChild(a);
-  });
-</script>
 
 
 
