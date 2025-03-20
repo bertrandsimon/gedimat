@@ -1,67 +1,67 @@
 const data = [
   {
-    "id": "1",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/chambre/chambre-evasion-exotique-2023.jpg",
+    "id": "1", 
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-evasion-exotique-2023.jpg",
     "link": "https://www.gedimat.fr/article-chambre-evasion-exotique-mix-match-exotique-2344.htm"
   },
   {
     "id": "2",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-retro-cool-2023.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-2023.jpg",
     "link": "https://www.gedimat.fr/article-chambre-retro-cool-evolutive-au-charme-immuable-2434.htm"
   },
   {
     "id": "3",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-scandi-boheme-2023-2.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2023-2.jpg",
     "link": "https://www.gedimat.fr/article-chambre-scandi-boheme-dortoir-a-la-campagne-2436.htm"
   },
   {
     "id": "4",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-retro-cool-2022.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-2022.jpg",
     "link": "https://www.gedimat.fr/article-chambre-retro-cool-style-et-petit-budget-2439.htm"
   },
   {
     "id": "5",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-loft-indus-2021.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-indus-2021.jpg",
     "link": "https://www.gedimat.fr/article-chambre-loft-industriel-pour-ado-dans-les-combles-2442.htm"
   },
   {
     "id": "6",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/chambre/chambre-loft-6.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-6.jpg",
     "link": "https://www.gedimat.fr/article-chambre-loft-indus-melange-brut-delements-contemporains-2347.htm"
   },
   {
     "id": "7",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/chambre/chambre-design-7.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-design-7.jpg",
     "link": "https://www.gedimat.fr/article-chambre-design-epure-apaisante-pour-se-ressourcer-2345.htm"
   },
   {
     "id": "8",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-classique-chic-2022.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-classique-chic-2022.jpg",
     "link": "https://www.gedimat.fr/article-chambre-classique-chic-teletravail-chambre-parental-2437.htm"
   },
   {
     "id": "9",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-design-epure-2022.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-design-epure-2022.jpg",
     "link": "https://www.gedimat.fr/article-chambre-design-epure-suite-parentale-avec-vue-exterieure-2440.htm"
   },
   {
     "id": "10",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/galerie/chambre/chambre-retro-cool-3.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-3.jpg",
     "link": "https://www.gedimat.fr/article-chambre-retro-cool-vitaminee-et-decomplexee-2346.htm"
   },
   {
     "id": "11",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-scandi-boheme-2023.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2023.jpg",
     "link": "https://www.gedimat.fr/article-chambre-scandi-boheme-esprit-tiny-house-2435.htm"
   },
   {
     "id": "12",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-loft-indus-2022.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-indus-2022.jpg",
     "link": "https://www.gedimat.fr/article-chambre-loft-indus-allures-new-yorkaise-2438.htm"
   },
   {
     "id": "13",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-scandi-boheme-2021.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2021.jpg",
     "link": "https://www.gedimat.fr/article-chambre-scandi-boheme-etage-en-chambre-d-ami-2441.htm"
   }
 ];
