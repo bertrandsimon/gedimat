@@ -61,9 +61,9 @@ const data = [
   },
   {
     "id": "13",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-loft-scandi-boheme-2021",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-loft-scandi-boheme-2021.jpg",
     "link": "/article-sejour-scandi-boheme-cosy-et-chaleureux-sous-les-combles-2426.htm"
-    // Note: This image link doesn't have a .jpg extension in your HTML snippet
+  
   },
   {
     "id": "14",

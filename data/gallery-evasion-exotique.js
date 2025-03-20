@@ -39,5 +39,4 @@ const data = [
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-evasion-exotique-2024.jpg",
         "link": "/article-sdb-evasion-exotique-a-l-heure-des-tropiques-2443.htm"
       }
-
 ]
