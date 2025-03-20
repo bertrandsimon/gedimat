@@ -63,5 +63,30 @@ const data = [
     "id": "13",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2021.jpg",
     "link": "https://www.gedimat.fr/article-chambre-scandi-boheme-etage-en-chambre-d-ami-2441.htm"
+  },
+  {
+    "id": "14",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-chambre-retro-cool-2518.htm"
+  },
+  {
+    "id": "15",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-evasion-exotique-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-chambre-evasion-exotique-2519.htm"
+  },
+  {
+    "id": "16",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2025.jpg",
+    "link": "https://www.gedimat.fr/article-chambre-scandi-boheme-2501.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-noir-et-blanc-2025.jpg",
+    "link": "https://www.gedimat.fr/article-chambre-noir-blanc-2491.htm"
+  },
+  {
+    "id": "18",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-classique-chic-2025.jpg",
+    "link": "https://www.gedimat.fr/article-chambre-classique-chic-2505.htm"
   }
 ];

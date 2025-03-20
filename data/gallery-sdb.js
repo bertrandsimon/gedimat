@@ -83,5 +83,35 @@ const data = [
     "id": "17",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-scandi-boheme-2022.jpg",
     "link": "https://www.gedimat.fr/article-sdb-scandi-boheme-ambiance-sauna-apaisant-2451.htm"
+  },
+  {
+    "id": "18",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-noir-et-blanc-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-noir-blanc-2520.htm"
+  },
+  {
+    "id": "19",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-design-epure-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-design-epure-2521.htm"
+  },
+  {
+    "id": "20",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-loft-contemporain-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-loft-contemporain-2495.htm"
+  },
+  {
+    "id": "21",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-evasion-exotique-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-evasion-exotique-2499.htm"
+  },
+  {
+    "id": "22",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-classique-chic-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-classique-chic-2503.htm"
+  },
+  {
+    "id": "23",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-salle-de-bains-retro-cool-2509.htm"
   }
 ];

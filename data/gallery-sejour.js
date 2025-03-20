@@ -69,5 +69,20 @@ const data = [
     "id": "14",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-industriel-2021.jpg",
     "link": "https://www.gedimat.fr/article-sejour-loft-indus-hangar-amenage-en-loft-2425.htm"
+  },
+  {
+    "id": "15",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-contemporain-2025.jpg",
+    "link": "https://www.gedimat.fr/article-sejour-loft-contemporain-2496.htm"
+  },
+  {
+    "id": "16",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-evasion-exotique-2025.jpg",
+    "link": "https://www.gedimat.fr/article-sejour-evasion-exotique-2497.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-classique-chic-2025.jpg",
+    "link": "https://www.gedimat.fr/article-sejour-classique-chic-2504.htm"
   }
 ];

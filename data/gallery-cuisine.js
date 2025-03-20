@@ -48,5 +48,30 @@ const data = [
     "id": "10",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-loft-indus-2021.jpg",
     "link": "https://www.gedimat.fr/article-cuisine-loft-indus-2021-moderne-et-style-de-caractere-2432.htm"
+  },
+  {
+    "id": "11",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-scandi-boheme-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-scandi-boheme-2516.htm"
+  },
+  {
+    "id": "12",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-noir-et-blanc-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-noir-blanc-2517.htm"
+  },
+  {
+    "id": "13",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-evasion-exotique-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-evasion-exotique-2498.htm"
+  },
+  {
+    "id": "14",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-design-epure-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-design-epure-2506.htm"
+  },
+  {
+    "id": "15",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
   }
 ];

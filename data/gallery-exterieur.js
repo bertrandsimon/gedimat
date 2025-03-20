@@ -80,7 +80,7 @@ const data = [
   {
     "id": "16",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2021-2462.jpg",
-    "link": "https://www.gedimat.fr/article-exterieur-loft-indus-deliberement-industriel-2462.htm"
+    "link": "https://www.gedimat.fr/article-exterieur-scandi-boheme-syle-maison-cap-ferret-2466.htm"
   },
   {
     "id": "17",
@@ -112,13 +112,54 @@ const data = [
   },
   {
     "id": "22",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-design-epure-2022-2364.jpg",
-    "link": "https://www.gedimat.fr/article-salle-de-bains-scandi-boheme-un-mariage-harmonieux-des-tons-sable-et-terracotta-2364.htm"
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2022-2463.jpg",
+    "link": "https://www.gedimat.fr/article-exterieur-retro-cool-cuisine-d-ete-2463.htm"
   },
   {
     "id": "23",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2022-2463.jpg",
-    "link": "https://www.gedimat.fr/article-exterieur-retro-cool-cuisine-d-ete-2463.htm"
+    "link": "https://www.gedimat.fr/article-terrasse-design-epure-un-espace-minimaliste-aux-tons-neutres-2311.htm"
+  },
+  {
+    "id": "24",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2025.jpg",
+    "link": "https://www.gedimat.fr/article-terrasse-scandinave-boheme-l-esprit-ibiza-chez-soi-2319.htm"
+  },
+  {
+    "id": "25",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2022-2463.jpg",
+    "link": "https://www.gedimat.fr/article-terrasse-retro-cool-un-espace-vintage-qui-swingue-2312.htm"
+  },
+  {
+    "id": "26",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2022-2463.jpg",
+    "link": "https://www.gedimat.fr/article-terrasse-noir-et-blanc-une-terrasse-chic-et-confortable-2314.htm"
+  },
+  {
+    "id": "27",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-noir-et-blanc-2025.jpg",
+    "link": "https://www.gedimat.fr/article-exterieur-noir-blanc-2492.htm"
+  },
+  {
+    "id": "29",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-design-epure-2025.jpg",
+    "link": "https://www.gedimat.fr/article-exterieur-design-epure-2508.htm"
+  },
+  {
+    "id": "30",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-exterieur-retro-cool-2510.htm"
+  },
+  {
+    "id": "31",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-evasion-exotique-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-terrasse-evasion-exotique-2512.htm"
+  },
+  {
+    "id": "32",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-loft-contemporain-duel-2025.jpg",
+    "link": "https://www.gedimat.fr/article-terrasse-loft-contemporain-2513.htm"
   }
+ 
 ];
  
