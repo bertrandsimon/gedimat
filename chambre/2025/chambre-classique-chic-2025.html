@@ -1,0 +1,514 @@
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<link href="https://fonts.googleapis.com" rel="preconnect" />
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+<!-- HOVER -->
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" referrerpolicy="no-referrer" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<style>
+.bandeauBas__grid {
+	gap : 20px !important;
+}
+
+#ariane {
+	padding: 2rem !important;
+}
+
+#sticky-mobile {
+  z-index: 1000 !important; /* or a higher value if needed */
+}
+
+#sticky {
+  z-index: 1000 !important; /* or a higher value if needed */
+  transition: margin-right 0.4s ease-out !important;
+    margin-right: -200px; /* Initial retracted position */
+}
+
+#sticky:hover {
+  z-index: 1000 !important;
+  margin-right: -12px !important; /* Expanded position on hover */
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align:center !important;
+}
+  .swiper-pagination-bullet-active {
+    background-color: #CA002D !important;
+}
+
+.lgBtn {
+  display: inline-block;
+  border-radius: 8px;
+  color:white;
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align:center;
+  cursor:pointer;
+  transition: background-color 0.3s;
+  transition: stroke 0.3s;
+}
+.thin {
+  padding: 8px 16px;
+}
+
+.redBgLg { background-color: #CA002D;}
+.redBtn {
+  background-color: #CA002D;
+}
+.redBtn:hover {
+  background-color: #AE0027;
+}
+
+.redBtnOutlined {
+  border: 1px solid #CA002D;
+  color: #CA002D;
+}
+.redBtnOutlined:hover {
+  border: 1px solid #AE0027;
+  color: #AE0027;
+  background-color: #FFF3F3;
+}
+
+.greyBtn {
+  background-color: #B8AEA7;
+}
+.greyBtn:hover {
+  background-color: #9D948E;
+}
+
+.swiper {
+    width: 1060px;
+    height: 100%;
+}
+.prevBtn, .nextBtn {
+padding:4px;
+transition: background-color 0.3s, box-shadow 0.3s;
+}
+.prevBtn:hover, .nextBtn:hover {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h4{
+font-size:16px !important;
+font-weight: 500;;
+}
+.greyBg {
+background-color: #F7F6F5;
+padding:10px;
+border-radius: 10px;
+}
+
+.bannerBlock {
+background-color: #F7F6F5;
+padding:12px;
+border-radius: 10px;
+}
+
+
+
+</style>
+
+<body class="overflow-x-hidden">
+
+ <section id="sticky-mobile" class="fixed top-40 right-0 z-900 block md:hidden">
+    <div class="redBgLg rounded-l-lg text-white flex justify-center items-center h-[50px] w-[48px] pt-2">
+
+      <a href="/contact.php" class="hover:text-rose-950">
+        <div class="flex flex-col h-full w-full gap-4 pt-4 items-center justify-center">
+          <i class="fa-regular fa-calendar fa-xl"></i>
+          <span>RDV</span>
+        </div>
+      </a>
+
+
+    </div>
+
+  </section>
+
+	
+<main class="container mx-auto relative pr-0 pl-0">
+
+	<section id="sticky" class="fixed top-[280px] -right-2 cursor-pointer hidden md:block">
+	
+		<div class="redBgLg flex rounded-l-xl flex flex-col text-white px-6 py-6 gap-6 w-[250px]">
+				
+			<a href="/contact.php" class="hover:text-rose-950 flex ">
+				<div class="flex items-center"><i class="fa-regular fa-calendar fa-xl pr-8 w-[40px] text-center"></i><span>Prendre rendez-vous</span></div>
+			</a>
+			<a href="/current-store.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-file-lines fa-xl pr-8 w-[40px] text-center"></i><span>Voir la fiche magasin</span></div>
+			</a>
+			<a href="/contact.php" class="hover:text-rose-950">
+				<div class="flex items-center"><i class="fa-regular fa-envelope fa-xl pr-8 w-[40px] text-center"></i><span>Ecrire au magasin</span></div>
+			</a>
+		</div>
+	
+	</section>
+
+	</div>
+
+
+	<div class="container mx-auto max-w-[1280px] isolate">
+
+
+		<section id="title">
+
+			<div class="flex flex-row my-10">
+				<div class="pr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+					</svg>
+				</div>
+				<div class="flex flex-col justify-around gap-2">
+					<h1 class="text-4xl font-semibold">Chambre Classique Chic</h1>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Douce poésie</span>
+					
+				</div>
+
+			</div>
+
+			<div class="flex flex-col md:flex-row gap-12 md:items-center pb-14">
+				<p class="w-full md:w-[560px]">Laissez place à la douceur dans votre chambre, avec des teintes effet velours et un papier peint au style romantique.</p>
+
+				<div class="flex items-center justify-start py-4">
+					<a href="/contact.php"><div class="lgBtn thin redBtn">Parler de mon projet avec un conseiller</div></a>
+				</div>
+
+			</div>
+			
+
+		</section>
+	
+		
+		<section id="poi" class="flex justify-center items-center my-10">
+
+			{{ ambiance 186 }}
+
+		</section>
+
+		<section id="poi-2">
+
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-4 ">
+
+				<div id="col-1" class="flex justify-center items-center">
+					<!-- {{ ambiance 105 }} -->
+				</div>
+
+				<div id="col-2" class="flex justify-center items-center">
+					<!-- {{ ambiance 102 }} -->
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="products" class="my-20 flex justify-center items-center">
+
+			{{ produit 30433241 30554299 30337928 30554300 28915515, 0}}
+
+		</section>
+
+
+        <section id="gallery_title">
+            <div class="flex flex-row my-10">
+				<div class="pr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
+					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+					</svg>
+				</div>
+				<div class="flex flex-col justify-around gap-2">
+					<h2 class="text-4xl font-semibold">Inspirations pour votre Chambre</h2>
+					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Trouvez l'inspiration avec nos projets</span>
+				</div>
+			</div>
+        </section>
+		<div class="gap-8 columns-1 sm:columns-3 py-10 sm:px-40" id="gallery">
+            <!-- Gallery -->
+        </div>
+
+
+	<section id="tendance_select" class="mb-3">
+
+		<div class="flex flex-row my-3">
+			<div class="pr-4">
+				<svg xmlns="http://www.w3.org/2000/svg" width="5" height="100%" viewBox="0 0 6 72" fill="none">
+				<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
+				</svg>
+			</div>
+			<div class="flex flex-col justify-around gap-2">
+				<h2 class="text-4xl font-semibold">C'est tendance !</h2>
+				<span class="text-2xl font-semibold text-[#CA002D]">Parmi nos 7 tendances, trouvez celle qui vous ressemble. Pour un chez vous bien à vous !</span>
+			</div>
+		</div>
+
+
+	</section>
+	
+
+	<section id="slideshow mobile" class="block md:hidden mb-4 w-full z-1 my-10">
+	<div class="flex no-wrap overflow-x-scroll pb-4 gap-4 touch-auto">
+
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+				<a href="/menu-tendances-evasion-exotique-178.htm">
+					   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/1.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				</a>
+			</div>
+			<span class="pt-2 font-semibold">Évasion Exotique</span>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+			   <a href="/menu-tendances-loft-industriel-179.htm">
+					   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/2.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+			   </a>
+			</div>
+			<span class="pt-2 font-semibold">Loft Indus</span>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+			   <a href="/menu-tendances-scandi-boheme-180.htm">
+					   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/3.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+			   </a>
+			</div>
+			<span class="pt-2 font-semibold">Scandi Bohème</span>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+			   <a href="/menu-tendances-noir-et-blanc-181.htm">
+					   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/4.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+			   </a>
+			</div>
+			<span class="pt-2 font-semibold">Noir & Blanc</span>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+				<a href="/menu-tendances-retro-cool-182.htm">
+								   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/5.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				 </a>
+			</div>
+			<span class="pt-2 font-semibold">Rétro Cool</span>
+		</div>
+		
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+				<a href="/menu-tendances-design-epure-176.htm">
+								   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/6.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				 </a>
+			</div>
+			<span class="pt-2 font-semibold">Design &Eacute;puré</span>
+		</div>
+		
+		<div class="flex flex-col items-center">
+			<div class="overflow-hidden rounded-md">
+				<a href="/menu-tendances-classique-chic-177.htm">
+								   <img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/7.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				 </a>
+			</div>
+			<span class="pt-2 font-semibold">Classique Chic</span>
+		</div>
+
+
+	</div>
+
+</section>
+
+
+	<section id="slideshow desktop" class="hidden md:block mb-20 mt-10 max-w-[1280px] flex justify-center">
+
+		<!-- line 1 -->
+		<div class="flex items-center justify-between text-center pt-4 gap-1">
+			
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-evasion-exotique-178.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/1.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Évasion Exotique</span>
+			</div>
+
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-loft-industriel-179.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/2.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Loft Indus</span>
+			</div>
+
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-scandi-boheme-180.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/3.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Scandi Bohème</span>
+			</div>
+
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-noir-et-blanc-181.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/4.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Noir & Blanc</span>
+			</div>
+
+	
+		
+			
+		</div>
+		<!-- #1line 1 -->
+
+		<!-- line 2 -->
+		<div class="flex items-center justify-center text-center pt-10 gap-1">
+			
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-retro-cool-182.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/5.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Rétro Cool</span>
+			</div>
+
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-design-epure-176.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/6.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Design &Eacute;puré</span>
+			</div>
+
+			<div class="flex flex-col items-center basis-1/4">
+				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
+				   <a href="/menu-tendances-classique-chic-177.htm">
+				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/tend/7.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+				   </a>
+				</div>
+				<span class="pt-2 font-semibold">Classique Chic</span>
+			</div>
+
+		</div>
+		<!-- #line 2 -->
+
+	</section>
+	
+	
+	<section id="pieces_select" class="my-10"> 
+		<h2 class="text-3xl font-semibold text-center my-10">De l'inspiration pour toutes les pièces de la maison !</h2>
+		<div class="flex justify-start md:justify-center items-center gap-4 py-4 overflow-x-scroll lg:overflow-hidden no-wrap">
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/1.jpg" alt="">
+					<span class="text-xl font-semibold">Entrée</span>
+					<a href="/menu-inspirations-pour-votre-entree-183.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/2.jpg" alt="">
+					<span class="text-xl font-semibold">Séjour</span>
+					<a href="/menu-inspirations-pour-votre-sejour-184.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/3.jpg" alt="">
+					<span class="text-xl font-semibold">Cuisine</span>
+					<a href="/menu-inspirations-pour-votre-cuisine-185.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/4.jpg" alt="">
+					<span class="text-xl font-semibold">Chambre</span>
+					<a href="/menu-inspirations-pour-votre-chambre-186.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/5.jpg" alt="">
+					<span class="text-xl font-semibold">Salle de bains</span>
+					<a href="/menu-inspirations-pour-votre-salle-de-bains-187.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+
+			<div class="flex flex-col justify-center items-center greyBg gap-3">
+				
+					<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/6.jpg" alt="">
+					<span class="text-xl font-semibold">Extérieur</span>
+					<a href="/menu-inspirations-pour-votre-exterieur-188.htm"><div class="lgBtn thin greyBtn min-w-[130px]">Voir les projets</div></a>
+			</div>
+		
+		</div>
+	</section>
+
+
+	<section id="book" class="my-20">
+		<div class="bannerBlock flex flex-wrap items-center gap-6">
+
+			<img src="https://uploads.gedimat.fr/CMS/images/tendances2024/book/catalogue.jpg" alt="" class="rounded-md">
+
+
+			
+			<div class="flex flex-col justify-around items-center md:items-start gap-6">
+				<span class="text-2xl font-semibold text-center md:text-left">Découvrez le BOOK 2024 Tendances & Inspirations</span>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>Le guide des Tendances 2024</span>
+				</div>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>À consulter gratuitement</span>
+				</div>
+
+				<div class="flex gap-2 items-center justify-center">
+					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg></span>
+					<span>30 projets pour vos espaces de vie</span>
+				</div>
+
+				<a href="/catalogues/Tendances-2024/#page/1" target="_blank"><div class="lgBtn thin redBtn">Découvrir le catalogue</div></a>
+			</div>
+
+		</div>
+	</section>
+
+
+	
+
+</div> <!-- #container -->
+
+</main> 
+
+<script src="https://agence-web-antibes.com/gedimat/data/gallery-chambre.js"></script>
+<script src="https://agence-web-antibes.com/gedimat/js/gallery.js"></script>
+
+<!-- <script src="/data/gallery-chambre.js"></script>
+<script src="/js/gallery.js"></script> -->
+
+</body>
+
+
+
