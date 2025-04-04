@@ -38,5 +38,15 @@ const data = [
         "id" : "8",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-evasion-exotique-2024.jpg",
         "link": "/article-sdb-evasion-exotique-a-l-heure-des-tropiques-2443.htm"
+      },
+      {
+        "id" : "9",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-evasion-exotique-2025.jpg",
+        "link": "/article-cuisine-evasion-exotique-2498.htm"
+      },
+      {
+        "id" : "10",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-evasion-exotique-2025.jpg",
+        "link": "/article-salle-de-bains-evasion-exotique-2499.htm"
       }
 ]

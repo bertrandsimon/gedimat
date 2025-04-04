@@ -1,6 +1,6 @@
 const gallery = document.getElementById('gallery');
   
-// Clear existing gallery items (if there are any in your real HTML)
+
 gallery.innerHTML = '';
 
 const aspectClasses = ['aspect-square','aspect-video','aspect-[3/2]' ];
@@ -17,12 +17,12 @@ data.forEach( (item, i) => {
   wrapper.classList.add('block', 'overflow-hidden', 'rounded-md', 'mb-6');
     
 
-  // Create an <a> element
+
   const a = document.createElement('a');
   a.href = link;
   a.classList.add('block'); 
 
-  // Create an <img> element
+
   const img = document.createElement('img');
   img.src = img_url;
   img.classList.add(
@@ -38,7 +38,7 @@ data.forEach( (item, i) => {
   // Set the object-fit based on the class property
   img.style.objectFit = aspect || 'cover';
 
-  // Append <img> to <a>, then <a> to #gallery
+
   a.appendChild(img);
 
   wrapper.appendChild(a);

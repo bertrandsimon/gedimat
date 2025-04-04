@@ -44,4 +44,5 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-design-epure-2025.jpg",
     "link": "/article-entree-design-epure-2507.htm"
   }
+  
 ];

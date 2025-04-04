@@ -63,6 +63,21 @@ const data = [
         "id" : "13",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-loft-indus-2.jpg",
         "link": "/article-exterieur-loft-indus-deliberement-industriel-2462.htm"
+      },
+      {
+        "id" : "14",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-loft-contemporain-2025.jpg",
+        "link": "/article-entree-loft-contemporain-2494.htm"
+      },
+      {
+        "id" : "15",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-loft-contemporain-2025.jpg",
+        "link": "/article-salle-de-bains-loft-contemporain-2495.htm"
+      },
+      {
+        "id" : "16",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-contemporain-2025.jpg",
+        "link": "/article-sejour-loft-contemporain-2496.htm"
       }
 
 ]
