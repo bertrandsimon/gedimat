@@ -48,5 +48,10 @@ const data = [
         "id" : "10",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-evasion-exotique-2025.jpg",
         "link": "/article-salle-de-bains-evasion-exotique-2499.htm"
+      },
+      {
+        "id" : "10",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-evasion-exotique-2025.jpg",
+        "link": "/article-sejour-evasion-exotique-2497.htm"
       }
 ]

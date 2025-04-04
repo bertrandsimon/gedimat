@@ -63,5 +63,20 @@ const data = [
     "id": "13",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-retro-cool-2022-1.jpg",
     "link": "/article-sdb-retro-cool-haute-en-couleur-2449.htm"
+  },
+  {
+    "id": "14",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-retro-cool-2025.jpg",
+    "link": "/article-salle-de-bains-retro-cool-2509.htm"
+  },
+  {
+    "id": "15",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2025.jpg",
+    "link": "/article-exterieur-retro-cool-2510.htm"
+  },
+  {
+    "id": "16",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "/article-cuisine-retro-cool-2511.htm"
   }
 ];

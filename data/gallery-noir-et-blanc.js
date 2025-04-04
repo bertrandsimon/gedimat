@@ -38,5 +38,20 @@ const data = [
     "id": "8",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-noir-et-blanc-2022.jpg",
     "link": "/article-sdb-noir-et-blanc-contraste-moderne-et-elegante-2450.htm"
+  },
+  {
+    "id": "9",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-noir-et-blanc-2025.jpg",
+    "link": "/article-chambre-noir-blanc-2491.htm"
+  },
+  {
+    "id": "10",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-noir-et-blanc-2025.jpg",
+    "link": "/article-exterieur-noir-blanc-2492.htm"
+  },
+  {
+    "id": "11",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-noir-et-blanc-2025.jpg",
+    "link": "//article-entree-noir-blanc-2493.htm"
   }
 ];

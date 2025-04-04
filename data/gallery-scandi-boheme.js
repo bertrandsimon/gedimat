@@ -79,5 +79,21 @@ const data = [
     "id": "16",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-scandi-boheme-2021.jpg",
     "link": "/article-exterieur-scandi-boheme-syle-maison-cap-ferret-2466.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2025.jpg",
+    "link": "/article-exterieur-scandi-boheme-2500.htm"
+  },
+  {
+    "id": "18",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-scandi-boheme-2025.jpg",
+    "link": "/article-chambre-scandi-boheme-2501.htm"
+  },
+  {
+    "id": "19",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-scandi-boheme-2025.jpg",
+    "link": "/article-entree-scandi-boheme-2502.htm"
   }
+
 ];

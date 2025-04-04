@@ -48,5 +48,20 @@ const data = [
     "id": "10",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-design-epure-2022.jpg",
     "link": "/article-exterieur-design-epure-terrasse-ambiance-bord-de-mer-2460.htm"
+  },
+  {
+    "id": "11",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-design-epure-2025.jpg",
+    "link": "/article-cuisine-design-epure-2506.htm"
+  },
+  {
+    "id": "12",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-design-epure-2025.jpg",
+    "link": "/article-entree-design-epure-2507.htm"
+  },
+  {
+    "id": "13",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-design-epure-2022.jpg",
+    "link": "/article-exterieur-design-epure-2508.htm"
   }
 ];
