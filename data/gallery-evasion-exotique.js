@@ -50,8 +50,18 @@ const data = [
         "link": "/article-salle-de-bains-evasion-exotique-2499.htm"
       },
       {
-        "id" : "10",
+        "id" : "11",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-evasion-exotique-2025.jpg",
         "link": "/article-sejour-evasion-exotique-2497.htm"
+      },
+      {
+        "id" : "12",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-evasion-exotique-duel-2025.jpg",
+        "link": "/article-terrasse-evasion-exotique-2512.htm"
+      },
+      {
+        "id" : "13",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-evasion-exotique-duel-2025.jpg",
+        "link": "/article-chambre-evasion-exotique-2519.htm"
       }
 ]

@@ -52,6 +52,16 @@ const data = [
   {
     "id": "11",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-noir-et-blanc-2025.jpg",
-    "link": "//article-entree-noir-blanc-2493.htm"
+    "link": "/article-entree-noir-blanc-2493.htm"
+  },
+  {
+    "id": "12",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-noir-et-blanc-duel-2025.jpg",
+    "link": "/article-cuisine-noir-blanc-2517.htm"
+  },
+  {
+    "id": "13",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-noir-et-blanc-duel-2025.jpg",
+    "link": "/article-salle-de-bains-noir-blanc-2520.htm"
   }
 ];

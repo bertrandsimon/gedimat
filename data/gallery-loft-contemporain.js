@@ -78,6 +78,11 @@ const data = [
         "id" : "16",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-contemporain-2025.jpg",
         "link": "/article-sejour-loft-contemporain-2496.htm"
+      },
+      {
+        "id" : "17",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-loft-contemporain-duel-2025.jpg",
+        "link": "/article-terrasse-loft-contemporain-2513.htm"
       }
 
 ]

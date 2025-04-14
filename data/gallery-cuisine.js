@@ -73,5 +73,31 @@ const data = [
     "id": "15",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
     "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "16",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "18",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "19",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "20",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
+    "link": "https://www.gedimat.fr/article-cuisine-retro-cool-2511.htm"
   }
+ 
 ];

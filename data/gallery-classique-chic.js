@@ -78,5 +78,10 @@ const data = [
     "id": "16",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-classique-chic-2025.jpg",
     "link": "/article-chambre-classique-chic-2505.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-classique-chic-duel-2025.jpg",
+    "link": "/article-entree-classique-chic-2515.htm"
   }
 ];

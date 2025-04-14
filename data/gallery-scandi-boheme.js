@@ -94,6 +94,10 @@ const data = [
     "id": "19",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-scandi-boheme-2025.jpg",
     "link": "/article-entree-scandi-boheme-2502.htm"
+  },
+  {
+    "id": "20",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-scandi-boheme-duel-2025.jpg",
+    "link": "/article-cuisine-scandi-boheme-2516.htm"
   }
-
 ];

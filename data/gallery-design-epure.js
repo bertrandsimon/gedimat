@@ -63,5 +63,10 @@ const data = [
     "id": "13",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-design-epure-2022.jpg",
     "link": "/article-exterieur-design-epure-2508.htm"
+  },
+  {
+    "id": "14",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-design-epure-duel-2025.jpg",
+    "link": "/article-salle-de-bains-design-epure-2521.htm"
   }
 ];

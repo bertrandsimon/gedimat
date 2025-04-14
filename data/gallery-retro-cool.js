@@ -78,5 +78,15 @@ const data = [
     "id": "16",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-retro-cool-2025.jpg",
     "link": "/article-cuisine-retro-cool-2511.htm"
+  },
+  {
+    "id": "17",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-retro-cool-duel-2025.jpg",
+    "link": "/article-entree-retro-cool-2514.htm"
+  },
+  {
+    "id": "18",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-duel-2025.jpg",
+    "link": "/article-chambre-retro-cool-2518.htm"
   }
 ];
