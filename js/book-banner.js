@@ -15,7 +15,7 @@
 
 			
 			<div class="flex flex-col justify-around items-center md:items-start gap-6">
-				<span class="text-2xl font-semibold text-center md:text-left">Découvrez le BOOK 2025 Tendances & Inspirations</span>
+				<span class="text-2xl font-semibold text-center md:text-left">D&eacute;couvrez le BOOK 2025 Tendances & Inspirations</span>
 
 				<div class="flex gap-2 items-center justify-center">
 					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -28,7 +28,7 @@
 					<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
 						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 					</svg></span>
-					<span>À consulter gratuitement</span>
+					<span>&Agrave; consulter gratuitement</span>
 				</div>
 
 				<div class="flex gap-2 items-center justify-center">
@@ -38,7 +38,7 @@
 					<span>31 projets pour vos espaces de vie</span>
 				</div>
 
-				<a href=" https://www.gedimat.fr/catalogues/Tendances-2025#pk_campaign=Catalogue-Tendances-2025&pk_source=Siteweb&pk_medium=Page" target="_blank"><div class="lgBtn thin redBtn">Découvrir le catalogue</div></a>
+				<a href=" https://www.gedimat.fr/catalogues/Tendances-2025#pk_campaign=Catalogue-Tendances-2025&pk_source=Siteweb&pk_medium=Page" target="_blank"><div class="lgBtn thin redBtn">D&eacute;couvrir le catalogue</div></a>
 			</div>
 
 		</div>

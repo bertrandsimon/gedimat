@@ -21,7 +21,7 @@
 			</div>
 			<div class="flex flex-col justify-around gap-2">
 				<h2 class="text-4xl font-semibold">C'est tendance !</h2>
-				<span class="text-2xl font-semibold text-[#CA002D]">Parmi nos 7 tendances, trouvez celle qui vous ressemble. Pour un chez vous bien à vous !</span>
+				<span class="text-2xl font-semibold text-[#CA002D]">Parmi nos 7 tendances, trouvez celle qui vous ressemble. Pour un chez vous bien &agrave; vous !</span>
 			</div>
 		</div>
 
@@ -38,7 +38,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/1.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 					</a>
 				</div>
-				<span class="pt-2 font-semibold">Évasion Exotique</span>
+				<span class="pt-2 font-semibold">&Eacute;vasion Exotique</span>
 			</div>
 
 			<div class="flex flex-col items-center">
@@ -56,7 +56,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/3.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Scandi Bohème</span>
+				<span class="pt-2 font-semibold">Scandi Boh&egrave;me</span>
 			</div>
 
 			<div class="flex flex-col items-center">
@@ -74,7 +74,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/5.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Rétro Cool</span>
+				<span class="pt-2 font-semibold">R&eacute;tro Cool</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
@@ -83,7 +83,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/6.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Design &Eacute;puré</span>
+				<span class="pt-2 font-semibold">Design &Eacute;pur&eacute;</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
@@ -111,7 +111,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/1.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Évasion Exotique</span>
+				<span class="pt-2 font-semibold">&Eacute;vasion Exotique</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
@@ -129,7 +129,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/3.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Scandi Bohème</span>
+				<span class="pt-2 font-semibold">Scandi Boh&egrave;me</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
@@ -156,7 +156,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/5.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Rétro Cool</span>
+				<span class="pt-2 font-semibold">R&eacute;tro Cool</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
@@ -165,7 +165,7 @@
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/6.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
-				<span class="pt-2 font-semibold">Design &Eacute;puré</span>
+				<span class="pt-2 font-semibold">Design &Eacute;pur&eacute;</span>
 			</div>
 
 			<div class="flex flex-col items-center basis-1/4">
