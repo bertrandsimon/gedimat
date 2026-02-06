@@ -115,7 +115,7 @@
 
 			<div class="flex flex-col items-center basis-1/4">
 				<div class="max-w-[274px] max-h-[152px] overflow-hidden rounded-2xl">
-				   <a href="/menu-tendances-loft-industriel-179.htm">
+				   <a href="/menu-tendance-loft-contemporain-197.htm">
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/2.jpg" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>
