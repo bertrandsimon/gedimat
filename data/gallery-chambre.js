@@ -22,12 +22,12 @@ const data = [
   {
     "id": "5",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-indus-2021.jpg",
-    "link": "https://www.gedimat.fr/article-chambre-loft-industriel-pour-ado-dans-les-combles-2442.htm"
+    "link": "https://www.gedimat.fr/article-chambre-loft-contemporain-pour-ado-dans-les-combles-2442.htm"
   },
   {
     "id": "6",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-6.jpg",
-    "link": "https://www.gedimat.fr/article-chambre-loft-indus-melange-brut-delements-contemporains-2347.htm"
+    "link": "https://www.gedimat.fr/article-chambre-loft-contemporain-melange-brut-delements-contemporains-2347.htm"
   },
   {
     "id": "7",
@@ -57,7 +57,7 @@ const data = [
   {
     "id": "12",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-indus-2022.jpg",
-    "link": "https://www.gedimat.fr/article-chambre-loft-indus-allures-new-yorkaise-2438.htm"
+    "link": "https://www.gedimat.fr/article-chambre-loft-contemporain-allures-new-yorkaise-2438.htm"
   },
   {
     "id": "13",

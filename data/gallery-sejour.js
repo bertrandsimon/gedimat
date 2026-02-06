@@ -12,7 +12,7 @@ const data = [
   {
     "id": "3",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-industriel-2023.jpg",
-    "link": "https://www.gedimat.fr/article-sejour-loft-indus-sejour-esprit-factory-2420.htm"
+    "link": "https://www.gedimat.fr/article-sejour-loft-contemporain-sejour-esprit-factory-2420.htm"
   },
   {
     "id": "4",
@@ -68,7 +68,7 @@ const data = [
   {
     "id": "14",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-industriel-2021.jpg",
-    "link": "https://www.gedimat.fr/article-sejour-loft-indus-hangar-amenage-en-loft-2425.htm"
+    "link": "https://www.gedimat.fr/article-sejour-loft-contemporain-hangar-amenage-en-loft-2425.htm"
   },
   {
     "id": "15",

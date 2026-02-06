@@ -38,7 +38,7 @@ const data = [
   {
     "id": "8",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-loft-indus-2021-2467.jpg",
-    "link": "https://www.gedimat.fr/article-exterieur-loft-indus-patio-urbain-2467.htm"
+    "link": "https://www.gedimat.fr/article-exterieur-loft-contemporain-patio-urbain-2467.htm"
   },
 
   // --- Column #2 ---
@@ -70,7 +70,7 @@ const data = [
   {
     "id": "14",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-loft-indus-2-2462.jpg",
-    "link": "https://www.gedimat.fr/article-exterieur-loft-indus-deliberement-industriel-2462.htm"
+    "link": "https://www.gedimat.fr/article-exterieur-loft-contemporain-deliberement-industriel-2462.htm"
   },
   {
     "id": "15",
@@ -98,7 +98,7 @@ const data = [
   {
     "id": "19",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/terrasse-loft-2360.jpg",
-    "link": "https://www.gedimat.fr/article-terrasse-loft-indus-une-terrasse-qui-a-du-caractere-2360.htm"
+    "link": "https://www.gedimat.fr/article-terrasse-loft-contemporain-une-terrasse-qui-a-du-caractere-2360.htm"
   },
   {
     "id": "20",

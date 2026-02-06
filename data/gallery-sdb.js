@@ -2,7 +2,7 @@ const data = [
   {
     "id": "1", 
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-loft.jpg",
-    "link": "https://www.gedimat.fr/article-salle-de-bains-loft-industriel-un-style-au-caractere-bien-trempe-2316.htm"
+    "link": "https://www.gedimat.fr/article-salle-de-bains-loft-contemporain-un-style-au-caractere-bien-trempe-2316.htm"
   },
   {
     "id": "2",
@@ -72,7 +72,7 @@ const data = [
   {
     "id": "15",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-loft-indus-2023.jpg",
-    "link": "https://www.gedimat.fr/article-sdb-loft-indus-style-urbain-affirme-2445.htm"
+    "link": "https://www.gedimat.fr/article-sdb-loft-contemporain-style-urbain-affirme-2445.htm"
   },
   {
     "id": "16",

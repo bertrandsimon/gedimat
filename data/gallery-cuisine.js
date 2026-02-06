@@ -2,7 +2,7 @@ const data = [
   {
     "id": "1",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-loft-10.jpg",
-    "link": "https://www.gedimat.fr/article-cuisine-loft-indus-dans-un-style-atelier-dartiste-new-yorkais-2351.htm"
+    "link": "https://www.gedimat.fr/article-cuisine-loft-contemporain-dans-un-style-atelier-dartiste-new-yorkais-2351.htm"
   },
   {
     "id": "2",
@@ -32,7 +32,7 @@ const data = [
   {
     "id": "7",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-loft-indus-2022.jpg",
-    "link": "https://www.gedimat.fr/article-cuisine-loft-indus-2022-esprit-bar-pour-recevoir-famille-et-amis-2431.htm"
+    "link": "https://www.gedimat.fr/article-cuisine-loft-contemporain-2022-esprit-bar-pour-recevoir-famille-et-amis-2431.htm"
   },
   {
     "id": "8",
@@ -47,7 +47,7 @@ const data = [
   {
     "id": "10",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-loft-indus-2021.jpg",
-    "link": "https://www.gedimat.fr/article-cuisine-loft-indus-2021-moderne-et-style-de-caractere-2432.htm"
+    "link": "https://www.gedimat.fr/article-cuisine-loft-contemporain-2021-moderne-et-style-de-caractere-2432.htm"
   },
   {
     "id": "11",
