@@ -1,14 +1,13 @@
-/**
- * Reusable "C'est tendance !" + tendances slideshow block.
- *
- * Usage (recommended):
- *   <div id="tendances-slideshow"></div>
- *   <script src="js/tendances-slideshow.js" defer></script>
- *
- * Optional:
- *   <script src="js/tendances-slideshow.js" defer data-target="myCustomId"></script>
- *   <div id="myCustomId"></div>
- */
+// OLD LINK
+// <div class="flex flex-col items-center">
+// <div class="overflow-hidden rounded-md">
+//    <a href="/menu-tendances-loft-industriel-179.htm">
+// 		   <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/2.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
+//    </a>
+// </div>
+// <span class="pt-2 font-semibold">Loft Contemporain</span>
+// </div>
+
 (function () {
   const MARKUP = `
 <section id="tendance_select" class="mb-3">
@@ -43,7 +42,7 @@
 
 			<div class="flex flex-col items-center">
 				<div class="overflow-hidden rounded-md">
-				   <a href="/menu-tendances-loft-industriel-179.htm">
+				   <a href="/menu-tendance-loft-contemporain-197.htm">
 				   		<img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/2.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 				   </a>
 				</div>

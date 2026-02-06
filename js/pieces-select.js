@@ -1,14 +1,4 @@
-/**
- * Reusable "De l'inspiration pour toutes les pieces..." block.
- *
- * Usage (recommended):
- *   <div id="pieces-select"></div>
- *   <script src="js/pieces-select.js" defer></script>
- *
- * Optional:
- *   <script src="js/pieces-select.js" defer data-target="myCustomId"></script>
- *   <div id="myCustomId"></div>
- */
+
 (function () {
   const MARKUP = `
 <section id="pieces_select" class="my-10"> 

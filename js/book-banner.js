@@ -1,10 +1,4 @@
-/**
- * Reusable "BOOK 2025 Tendances & Inspirations" banner block.
- *
- * Usage:
- *   <div id="book-banner"></div>
- *   <script src="js/book-banner.js" defer></script>
- */
+
 (function () {
   const MARKUP = `
 <section id="book" class="my-20">
