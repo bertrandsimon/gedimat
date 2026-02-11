@@ -2,7 +2,7 @@ const data = [
     {
       "id" : "1",
       "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/tendances/loft-cuisine.jpg",
-      "link": "/article-salle-de-bains-loft-contemporain-un-style-au-caractere-bien-trempe-2316.htm"
+      "link": "/article-cuisine-loft-contemporain-dans-un-style-atelier-dartiste-new-yorkais-2351.htm"
     },
     {
       "id" : "2",

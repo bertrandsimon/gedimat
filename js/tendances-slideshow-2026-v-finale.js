@@ -1,7 +1,7 @@
 // OLD LINK
 // <div class="flex flex-col items-center">
 // <div class="overflow-hidden rounded-md">
-//    <a href="/menu-tendances-loft-industriel-179.htm">
+//    <a href="/menu-tendance-loft-contemporain-197.htm">
 // 		   <img src="https://uploads.gedimat.fr/CMS/images/tendances2025/tend/2.jpg" class="min-w-[180px] min-h-[180px] hover:scale-110 transition duration-500 cursor-pointer object-cover">
 //    </a>
 // </div>

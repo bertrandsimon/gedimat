@@ -55,11 +55,6 @@ const data = [
     "link": "/article-exterieur-scandi-boheme-terrasse-champetre-2468.htm"
   },
   {
-    "id": "12",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/tendances/scandi-sdb.jpg",
-    "link": "/article-salle-de-bains-scandi-boheme-un-mariage-harmonieux-des-tons-sable-et-terracotta-2364.htm"
-  },
-  {
     "id": "13",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-loft-scandi-boheme-2021.jpg",
     "link": "/article-sejour-scandi-boheme-cosy-et-chaleureux-sous-les-combles-2426.htm"
