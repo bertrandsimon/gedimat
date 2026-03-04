@@ -162,14 +162,18 @@ border-radius: 10px;
 		</section>
 
 		<section id="block1 ">	
-      <div class="flex flex-col gap-10 items-center justify-center">
-        <div ><p class="max-w-[1250px] whitespace-pre-line">Ce premier épisode a été tourné chez Gedimat Matériaux Picard à Montdidier.Le défi rénovation est ici un double défi : prolonger le carrelage de la cuisine vers la terrasse, tout en créant une transition harmonieuse entre carrelage et bois.</p></div>
+      <div class="flex flex-col gap-10 items-center justify-center px-4 sm:px-6">
+        <div>
+          <p class="max-w-[1250px] whitespace-pre-line">
+            Ce premier épisode a été tourné chez Gedimat Matériaux Picard à Montdidier. Le défi rénovation est double ici : prolonger le carrelage de la cuisine vers la terrasse, tout en créant une transition harmonieuse et mixer le carrelage et bois.
+          </p>
+        </div>
 			
-				<div class="grid grid-cols-2 gap-4 max-w-[1250px]" >
-					<div class="flex flex-col gap-4">
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 max-w-[1250px] w-full items-start">
+					<div class="flex flex-col gap-4 order-2 md:order-1">
 						<p class="whitespace-pre-line">
 							Le défi est lancé par <strong>Matthieu</strong>, le présentateur de Ma Maison de A à Z, à Paulo & Lulu. Pour y répondre, Paulo s’appuie sur l’expertise d’<strong>Arnaud</strong>, vendeur conseil chez Gedimat Matériaux Picard de Montdidier.
-							Ensemble, ils identifient la solution la plus adaptée grâce aux <strong>plots réglables Jouplast</strong> et à la <strong>lambourde aluminium Profildeck</strong>, conçue pour accueillir aussi bien le carrelage que le bois, selon son orientation.
+							Ensemble, ils identifient la solution la plus adaptée grâce aux <strong>plots réglables Jouplast<sup class="text-[0.7em] align-super">®</sup></strong> et à la <strong>lambourde aluminium Profildeck<sup class="text-[0.7em] align-super">®</sup></strong>, conçue pour accueillir aussi bien le carrelage que le bois, selon son emplacement.
 						</p>
 						<div>
 							<p><strong>Dans cette vidéo, découvrez :</strong></p>
@@ -182,7 +186,11 @@ border-radius: 10px;
 						<p class="whitespace-pre-line">Une démonstration concrète de l’accompagnement Gedimat, du conseil en magasin à la réalisation du projet.</p>
 					</div>
 				
-				<div class="flex items-center justify-center"><img src="images/webserie/paulo-lulu-1.jpg" class="w-full h-full object-cover" alt="Paulo et Lulu">	</div>
+				<div class="flex items-center justify-center order-1 md:order-2">
+          <div class="w-full max-w-[320px] sm:max-w-[420px] md:max-w-[500px] overflow-hidden rounded-2xl bg-slate-100 aspect-square md:aspect-[500/290]">
+            <img src="images/webserie/paulo-lulu-1.jpg" class="h-full w-full object-cover object-center" alt="Paulo et Lulu">
+          </div>
+        </div>
 				
       </div>
 	
@@ -190,21 +198,38 @@ border-radius: 10px;
 			</section>
 
       <section id="block-photos" class="my-16">
-        <div class="flex flex-col md:flex-row items-stretch gap-4 md:gap-[8.5px]">
-          <div class="w-full md:w-[582px] h-[240px] sm:h-[320px] md:h-[390px] overflow-hidden rounded-[8px] md:rounded-r-none md:rounded-bl-[8px] md:rounded-tl-[8px] shrink-0 bg-slate-100">
+        <!-- Mobile: 2-column grid, keep original ratios -->
+        <div class="md:hidden grid grid-cols-2 gap-4 px-4 sm:px-6 max-w-[1250px] mx-auto">
+          <div class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]">
+            <img src="images/webserie/1.jpg" class="h-full w-full object-cover" alt="Photo 1" />
+          </div>
+          <div class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]">
+            <img src="images/webserie/4.jpg" class="h-full w-full object-cover" alt="Photo 4" />
+          </div>
+          <div class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/193]">
+            <img src="images/webserie/2.jpg" class="h-full w-full object-cover" alt="Photo 2" />
+          </div>
+          <div class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/189]">
+            <img src="images/webserie/3.jpg" class="h-full w-full object-cover" alt="Photo 3" />
+          </div>
+        </div>
+
+        <!-- Desktop: Figma layout -->
+        <div class="hidden md:flex items-stretch gap-[8.5px] max-w-[1250px] mx-auto">
+          <div class="h-[390px] w-[582px] overflow-hidden rounded-bl-[8px] rounded-tl-[8px] shrink-0 bg-slate-100">
             <img src="images/webserie/1.jpg" class="h-full w-full object-cover" alt="Photo 1" />
           </div>
 
-          <div class="w-full md:w-[347px] shrink-0 flex flex-col gap-4 md:gap-[8px]">
-            <div class="w-full h-[200px] md:h-[193px] overflow-hidden rounded-[8px] md:rounded-none bg-slate-100">
+          <div class="flex flex-col gap-[8px] w-[347px] shrink-0">
+            <div class="h-[193px] w-full overflow-hidden bg-slate-100">
               <img src="images/webserie/2.jpg" class="h-full w-full object-cover" alt="Photo 2" />
             </div>
-            <div class="w-full h-[200px] md:h-[189px] overflow-hidden rounded-[8px] md:rounded-none bg-slate-100">
+            <div class="h-[189px] w-full overflow-hidden bg-slate-100">
               <img src="images/webserie/3.jpg" class="h-full w-full object-cover" alt="Photo 3" />
             </div>
           </div>
 
-          <div class="w-full md:flex-1 h-[240px] sm:h-[320px] md:h-[390px] overflow-hidden rounded-[8px] md:rounded-l-none md:rounded-br-[8px] md:rounded-tr-[8px] bg-slate-100">
+          <div class="h-[390px] flex-1 overflow-hidden rounded-br-[8px] rounded-tr-[8px] bg-slate-100">
             <img src="images/webserie/4.jpg" class="h-full w-full object-cover" alt="Photo 4" />
           </div>
         </div>
@@ -228,7 +253,7 @@ border-radius: 10px;
             <p class="mt-6">
               Pour le relever, <strong>Paulo &amp; Lulu</strong> se rendent dans un magasin Gedimat. Sur place, ils échangent avec un <strong>vendeur Gedimat</strong>, véritable expert du projet, qui reformule le besoin, pose les bonnes questions et oriente vers les solutions les plus adaptées.
             </p>
-            <p class="mt-6">La web série met en lumière des situations réelles, des produits accessibles à tous, et des conseils simples p our faire les bons choix.</p>
+            <p class="mt-6">La web série met en lumière des situations réelles, des produits accessibles à tous, et des conseils simples pour faire les bons choix.</p>
             <p class="mt-6">
               Diffusée également <strong>YouTube</strong>, elle vous proposera un nouvel épisode tous les mois, chacune consacrée à une <strong>thématique précise</strong>.
             </p>
@@ -240,10 +265,10 @@ border-radius: 10px;
         <div class="flex flex-col gap-16 lg:gap-[76px] items-center w-full">
           <!-- Top block -->
           <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-[75px] w-full px-6 lg:px-[37.5px]">
-            <div class="w-full max-w-[516px] h-[240px] sm:h-[300px] lg:h-[329px] overflow-hidden">
+            <div class="w-full max-w-[516px] h-[280px] sm:h-[320px] lg:h-[329px] overflow-hidden bg-white p-2 sm:p-6">
               <img
-                src="https://www.figma.com/api/mcp/asset/e076fce9-7383-414d-ba9f-642a97477615"
-                class="h-full w-full object-cover"
+                src="images/webserie/logo-paulo-lulu.png"
+                class="h-full w-full object-contain"
                 alt="Paulo & Lulu Rénovation"
               />
             </div>
@@ -268,10 +293,10 @@ border-radius: 10px;
 
             <div class="relative grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="h-[256px] overflow-hidden rounded-[8px] bg-slate-200">
+                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] bg-white p-2 md:p-0">
                   <img
                     src="images/webserie/partenariat.jpg"
-                    class="h-full w-full object-cover"
+                    class="h-full w-full object-contain md:object-cover"
                     alt="Partenariat Gedimat x Paulo & Lulu"
                   />
                 </div>
@@ -281,10 +306,10 @@ border-radius: 10px;
               </div>
 
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="h-[256px] overflow-hidden rounded-[8px] bg-slate-200">
+                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] bg-white p-2 md:p-0">
                   <img
                     src="images/webserie/portraits.jpg"
-                    class="h-full w-full object-cover"
+                    class="h-full w-full object-contain md:object-cover"
                     alt="Paulo & Lulu"
                   />
                 </div>
@@ -294,10 +319,10 @@ border-radius: 10px;
               </div>
 
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="h-[256px] overflow-hidden rounded-[8px] bg-slate-200">
+                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] bg-white p-2 md:p-0">
                   <img
                     src="images/webserie/equipier.jpg"
-                    class="h-full w-full object-cover"
+                    class="h-full w-full object-contain md:object-cover"
                     alt="Vendeur Gedimat"
                   />
                 </div>
@@ -323,7 +348,9 @@ border-radius: 10px;
               <!-- Card 1 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#d9d9d9] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
@@ -334,7 +361,9 @@ border-radius: 10px;
               <!-- Card 2 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#e8e8e8] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
@@ -345,7 +374,9 @@ border-radius: 10px;
               <!-- Card 3 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#d9d9d9] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
@@ -356,7 +387,9 @@ border-radius: 10px;
               <!-- Card 4 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#d9d9d9] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
@@ -367,7 +400,9 @@ border-radius: 10px;
               <!-- Card 5 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#e8e8e8] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
@@ -378,7 +413,9 @@ border-radius: 10px;
               <!-- Card 6 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="bg-[#d9d9d9] rounded-[8px] h-[220px] w-full"></div>
+                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
+                    <img src="images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="text-[18px] leading-[25px] text-black">Episode titre</div>
                     <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
