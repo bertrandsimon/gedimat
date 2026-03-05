@@ -1,255 +1,343 @@
-
-
 <script src="https://cdn.tailwindcss.com"></script>
-
 
 <link href="https://fonts.googleapis.com" rel="preconnect" />
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap"
+  rel="stylesheet"
+/>
 
 <!-- HOVER -->
 
-
-
-
-
-
 <style>
-.bandeauBas__grid {
-	gap : 20px !important;
-}
+  .bandeauBas__grid {
+    gap: 20px !important;
+  }
 
-#ariane {
-	padding: 2rem !important;
-}
+  #ariane {
+    padding: 2rem !important;
+  }
 
-#sticky-mobile {
-  z-index: 1000 !important; /* or a higher value if needed */
-}
+  #sticky-mobile {
+    z-index: 1000 !important; /* or a higher value if needed */
+  }
 
-#sticky {
-  z-index: 1000 !important; /* or a higher value if needed */
-  transition: margin-right 0.4s ease-out !important;
+  #sticky {
+    z-index: 1000 !important; /* or a higher value if needed */
+    transition: margin-right 0.4s ease-out !important;
     margin-right: -200px; /* Initial retracted position */
-}
+  }
 
-#sticky:hover {
-  z-index: 1000 !important;
-  margin-right: -12px !important; /* Expanded position on hover */
-}
+  #sticky:hover {
+    z-index: 1000 !important;
+    margin-right: -12px !important; /* Expanded position on hover */
+  }
 
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  text-align:center !important;
-}
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    text-align: center !important;
+  }
   .swiper-pagination-bullet-active {
-    background-color: #CA002D !important;
-}
+    background-color: #ca002d !important;
+  }
 
-.lgBtn {
-  display: inline-block;
-  border-radius: 8px;
-  color:white;
-  padding: 10px 20px;
-  font-size: 13px;
-  text-align:center;
-  cursor:pointer;
-  transition: background-color 0.3s;
-  transition: stroke 0.3s;
-}
-.thin {
-  padding: 8px 16px;
-}
+  .lgBtn {
+    display: inline-block;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: stroke 0.3s;
+  }
+  .thin {
+    padding: 8px 16px;
+  }
 
-.redBgLg { background-color: #CA002D;}
-.redBtn {
-  background-color: #CA002D;
-}
-.redBtn:hover {
-  background-color: #AE0027;
-}
+  .redBgLg {
+    background-color: #ca002d;
+  }
+  .redBtn {
+    background-color: #ca002d;
+  }
+  .redBtn:hover {
+    background-color: #ae0027;
+  }
 
-.redBtnOutlined {
-  border: 1px solid #CA002D;
-  color: #CA002D;
-}
-.redBtnOutlined:hover {
-  border: 1px solid #AE0027;
-  color: #AE0027;
-  background-color: #FFF3F3;
-}
+  .redBtnOutlined {
+    border: 1px solid #ca002d;
+    color: #ca002d;
+  }
+  .redBtnOutlined:hover {
+    border: 1px solid #ae0027;
+    color: #ae0027;
+    background-color: #fff3f3;
+  }
 
-.greyBtn {
-  background-color: #B8AEA7;
-}
-.greyBtn:hover {
-  background-color: #9D948E;
-}
+  .greyBtn {
+    background-color: #b8aea7;
+  }
+  .greyBtn:hover {
+    background-color: #9d948e;
+  }
 
-.swiper {
+  .swiper {
     width: 1060px;
     height: 100%;
-}
-.prevBtn, .nextBtn {
-padding:4px;
-transition: background-color 0.3s, box-shadow 0.3s;
-}
-.prevBtn:hover, .nextBtn:hover {
-background-color: white;
-border-radius: 8px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-h4{
-font-size:16px !important;
-font-weight: 500;;
-}
-.greyBg {
-background-color: #F7F6F5;
-padding:10px;
-border-radius: 10px;
-}
+  }
+  .prevBtn,
+  .nextBtn {
+    padding: 4px;
+    transition:
+      background-color 0.3s,
+      box-shadow 0.3s;
+  }
+  .prevBtn:hover,
+  .nextBtn:hover {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  h4 {
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+  .greyBg {
+    background-color: #f7f6f5;
+    padding: 10px;
+    border-radius: 10px;
+  }
 
-.bannerBlock {
-background-color: #F7F6F5;
-padding:12px;
-border-radius: 10px;
-}
-
-
-
+  .bannerBlock {
+    background-color: #f7f6f5;
+    padding: 12px;
+    border-radius: 10px;
+  }
 </style>
 
 <body class="overflow-x-hidden">
-
-
-	
-<main class="container mx-auto relative pr-0 pl-0">
-
-
-
-	</div>
-
-
-	<div class="container mx-auto max-w-[1280px] isolate">
-
-		<section id="header">
-			<div class="flex flex-row my-10"><img src="https://uploads.gedimat.fr/CMS/images/webserie/header-maison-a-a-z.jpg" alt="Web série">	</div>
-		</section>
-
-		<section id="title">
-
-			<div class="flex flex-row my-10">
-				<div class="pr-3">
-					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="60" viewBox="0 0 6 72" fill="none">
-					<path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D"/>
-					</svg>
-				</div>
-				<div class="flex flex-col justify-around gap-2">
-					<h1 class="text-4xl font-semibold">Épisode 1</h1>
-					<span class="tracking-tighter text-2xl font-semibold text-[#CA002D]">Prolonger le carrelage de la cuisine jusqu’à la terrasse</span>
-					
-				</div>
-
-			</div>
-
-	
-
-		</section>
-	
-		
-
-		<section id="video">
-			<div class="my-10">
-        <div class="w-full max-w-[1250px] mx-auto overflow-hidden rounded-2xl bg-black aspect-video">
-          <iframe
-            class="h-full w-full"
-            src="https://www.youtube.com/embed/BIvflcBMM0A?rel=0"
-            title="Ma Maison de A à Z – Le défi rénovation (YouTube)"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+  <main class="container mx-auto relative pr-0 pl-0">
+    <div class="container mx-auto max-w-[1280px] isolate">
+      <section id="header">
+        <div class="flex flex-row my-10">
+          <img
+            src="https://uploads.gedimat.fr/CMS/images/webserie/header-maison-a-a-z.jpg"
+            alt="Web série"
+          />
         </div>
-      </div>
-		</section>
+      </section>
 
-		<section id="block1 ">	
-      <div class="flex flex-col gap-10 items-center justify-center px-4 sm:px-6">
-        <div>
-          <p class="max-w-[1250px] whitespace-pre-line">
-            Ce premier épisode a été tourné chez Gedimat Matériaux Picard à Montdidier. Le défi rénovation est double ici : prolonger le carrelage de la cuisine vers la terrasse, tout en créant une transition harmonieuse et mixer le carrelage et bois.
-          </p>
-        </div>
-			
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 max-w-[1250px] w-full items-start">
-					<div class="flex flex-col gap-4 order-2 md:order-1">
-						<p class="whitespace-pre-line">
-							Le défi est lancé par <strong>Matthieu</strong>, le présentateur de Ma Maison de A à Z, à Paulo & Lulu. Pour y répondre, Paulo s’appuie sur l’expertise d’<strong>Arnaud</strong>, vendeur conseil chez Gedimat Matériaux Picard de Montdidier.
-							Ensemble, ils identifient la solution la plus adaptée grâce aux <strong>plots réglables Jouplast<sup class="text-[0.7em] align-super">®</sup></strong> et à la <strong>lambourde aluminium Profildeck<sup class="text-[0.7em] align-super">®</sup></strong>, conçue pour accueillir aussi bien le carrelage que le bois, selon son emplacement.
-						</p>
-						<div>
-							<p><strong>Dans cette vidéo, découvrez :</strong></p>
-							<ul class="list-disc pl-6 space-y-1">
-								<li>les questions posées pour bien comprendre le projet,</li>
-								<li>le choix des produits en magasin,</li>
-								<li>et la mise en œuvre <strong>étape par étape</strong>, jusqu’au résultat final.</li>
-							</ul>
-						</div>
-						<p class="whitespace-pre-line">Une démonstration concrète de l’accompagnement Gedimat, du conseil en magasin à la réalisation du projet.</p>
-					</div>
-				
-				<div class="flex items-center justify-center order-1 md:order-2">
-          <div class="w-full max-w-[320px] sm:max-w-[420px] md:max-w-[500px] overflow-hidden rounded-2xl bg-slate-100 aspect-square md:aspect-[500/290]">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/paulo-lulu-1.jpg" class="h-full w-full object-cover object-center" alt="Paulo et Lulu">
+      <section id="title">
+        <div class="flex flex-row my-10">
+          <div class="pr-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="60"
+              viewBox="0 0 6 72"
+              fill="none"
+            >
+              <path d="M0 3L6 0L5 69.5L0 72V3Z" fill="#CA002D" />
+            </svg>
+          </div>
+          <div class="flex flex-col justify-around gap-2">
+            <h1 class="text-4xl font-semibold">Épisode 1</h1>
+            <span class="tracking-tighter text-2xl font-semibold text-[#CA002D]"
+              >Prolonger le carrelage de la cuisine jusqu’à la terrasse</span
+            >
           </div>
         </div>
-				
-      </div>
-	
-			</div>
-			</section>
+      </section>
+
+      <section id="video">
+        <div class="my-10">
+          <div
+            class="w-full max-w-[1250px] mx-auto overflow-hidden rounded-2xl bg-black aspect-video"
+          >
+            <iframe
+              class="h-full w-full"
+              src="https://www.youtube.com/embed/BIvflcBMM0A?rel=0"
+              title="Ma Maison de A à Z – Le défi rénovation (YouTube)"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="block1 ">
+        <div
+          class="flex flex-col gap-10 items-center justify-center px-4 sm:px-6"
+        >
+          <div>
+            <p class="max-w-[1250px] whitespace-pre-line">
+              Ce premier épisode a été tourné chez Gedimat Matériaux Picard à
+              Montdidier. Le défi rénovation est double ici : prolonger le
+              carrelage de la cuisine vers la terrasse, tout en créant une
+              transition harmonieuse et mixer le carrelage et bois.
+            </p>
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 max-w-[1250px] w-full items-start"
+          >
+            <div class="flex flex-col gap-4 order-2 md:order-1">
+              <p class="whitespace-pre-line">
+                Le défi est lancé par <strong>Matthieu</strong>, le présentateur
+                de Ma Maison de A à Z, à Paulo & Lulu. Pour y répondre, Paulo
+                s’appuie sur l’expertise d’<strong>Arnaud</strong>, vendeur
+                conseil chez Gedimat Matériaux Picard de Montdidier. Ensemble,
+                ils identifient la solution la plus adaptée grâce aux
+                <strong
+                  >plots réglables Jouplast<sup class="text-[0.7em] align-super"
+                    >®</sup
+                  ></strong
+                >
+                et à la
+                <strong
+                  >lambourde aluminium Profildeck<sup
+                    class="text-[0.7em] align-super"
+                    >®</sup
+                  ></strong
+                >, conçue pour accueillir aussi bien le carrelage que le bois,
+                selon son emplacement.
+              </p>
+              <div>
+                <p><strong>Dans cette vidéo, découvrez :</strong></p>
+                <ul class="list-disc pl-6 space-y-1">
+                  <li>les questions posées pour bien comprendre le projet,</li>
+                  <li>le choix des produits en magasin,</li>
+                  <li>
+                    et la mise en œuvre <strong>étape par étape</strong>,
+                    jusqu’au résultat final.
+                  </li>
+                </ul>
+              </div>
+              <p class="whitespace-pre-line">
+                Une démonstration concrète de l’accompagnement Gedimat, du
+                conseil en magasin à la réalisation du projet.
+              </p>
+            </div>
+
+            <div class="flex items-center justify-center order-1 md:order-2">
+              <div
+                class="w-full max-w-[320px] sm:max-w-[420px] md:max-w-[500px] overflow-hidden rounded-2xl bg-slate-100 aspect-square md:aspect-[500/290]"
+              >
+                <img
+                  src="https://uploads.gedimat.fr/CMS/images/webserie/paulo-lulu-1.jpg"
+                  class="h-full w-full object-cover object-center"
+                  alt="Paulo et Lulu"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="block-photos" class="my-16">
         <!-- Mobile: 2-column grid, keep original ratios -->
-        <div class="md:hidden grid grid-cols-2 gap-4 px-4 sm:px-6 max-w-[1250px] mx-auto">
-          <div class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/1.jpg" class="h-full w-full object-cover" alt="Photo 1" />
+        <div
+          class="md:hidden grid grid-cols-2 gap-4 px-4 sm:px-6 max-w-[1250px] mx-auto"
+        >
+          <div
+            class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/1.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 1"
+            />
           </div>
-          <div class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/4.jpg" class="h-full w-full object-cover" alt="Photo 4" />
+          <div
+            class="w-full max-w-[582px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[582/390]"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/4.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 4"
+            />
           </div>
-          <div class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/193]">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/2.jpg" class="h-full w-full object-cover" alt="Photo 2" />
+          <div
+            class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/193]"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/2.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 2"
+            />
           </div>
-          <div class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/189]">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/3.jpg" class="h-full w-full object-cover" alt="Photo 3" />
+          <div
+            class="w-full max-w-[347px] overflow-hidden rounded-[8px] bg-slate-100 aspect-[347/189]"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/3.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 3"
+            />
           </div>
         </div>
 
         <!-- Desktop: Figma layout -->
-        <div class="hidden md:flex items-stretch gap-[8.5px] max-w-[1250px] mx-auto">
-          <div class="h-[390px] w-[582px] overflow-hidden rounded-bl-[8px] rounded-tl-[8px] shrink-0 bg-slate-100">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/1.jpg" class="h-full w-full object-cover" alt="Photo 1" />
+        <div
+          class="hidden md:flex items-stretch gap-[8.5px] max-w-[1250px] mx-auto"
+        >
+          <div
+            class="h-[390px] w-[582px] overflow-hidden rounded-bl-[8px] rounded-tl-[8px] shrink-0 bg-slate-100"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/1.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 1"
+            />
           </div>
 
           <div class="flex flex-col gap-[8px] w-[347px] shrink-0">
             <div class="h-[193px] w-full overflow-hidden bg-slate-100">
-              <img src="https://uploads.gedimat.fr/CMS/images/webserie/2.jpg" class="h-full w-full object-cover" alt="Photo 2" />
+              <img
+                src="https://uploads.gedimat.fr/CMS/images/webserie/2.jpg"
+                class="h-full w-full object-cover"
+                alt="Photo 2"
+              />
             </div>
             <div class="h-[189px] w-full overflow-hidden bg-slate-100">
-              <img src="https://uploads.gedimat.fr/CMS/images/webserie/3.jpg" class="h-full w-full object-cover" alt="Photo 3" />
+              <img
+                src="https://uploads.gedimat.fr/CMS/images/webserie/3.jpg"
+                class="h-full w-full object-cover"
+                alt="Photo 3"
+              />
             </div>
           </div>
 
-          <div class="h-[390px] flex-1 overflow-hidden rounded-br-[8px] rounded-tr-[8px] bg-slate-100">
-            <img src="https://uploads.gedimat.fr/CMS/images/webserie/4.jpg" class="h-full w-full object-cover" alt="Photo 4" />
+          <div
+            class="h-[390px] flex-1 overflow-hidden rounded-br-[8px] rounded-tr-[8px] bg-slate-100"
+          >
+            <img
+              src="https://uploads.gedimat.fr/CMS/images/webserie/4.jpg"
+              class="h-full w-full object-cover"
+              alt="Photo 4"
+            />
           </div>
         </div>
       </section>
 
       <section id="defi-renovation" class="my-16">
-        <div class="bg-[#f4f3f1] flex flex-col lg:flex-row items-center gap-10 w-full px-6 py-6 rounded-2xl">
-          <div class="w-full max-w-[516px] h-[280px] sm:h-[320px] lg:h-[329px] overflow-hidden rounded-[8px] p-2 sm:p-3 flex items-center justify-center">
+        <div
+          class="bg-[#f4f3f1] flex flex-col lg:flex-row items-center gap-10 w-full px-6 py-6 rounded-2xl"
+        >
+          <div
+            class="w-full max-w-[516px] h-[280px] sm:h-[320px] lg:h-[329px] overflow-hidden rounded-[8px] p-2 sm:p-3 flex items-center justify-center"
+          >
             <img
               src="https://uploads.gedimat.fr/CMS/images/webserie/defi-renovation.png"
               class="block max-h-full max-w-full object-contain"
@@ -258,14 +346,32 @@ border-radius: 10px;
           </div>
 
           <div class="w-full max-w-[611px]">
-            <p class="font-bold">Ma Maison de A à Z – Le défi rénovation est la web série Gedimat qui transpose l’esprit du programme TV au cœur de nos magasins Gedimat.</p>
-            <p class="mt-6">À chaque épisode, un défi concret lié à la rénovation ou à l’aménagement est lancé par Matthieu, le présentateur de Ma Maison de A à Z.</p>
-            <p class="mt-6">
-              Pour le relever, <strong>Paulo &amp; Lulu</strong> se rendent dans un magasin Gedimat. Sur place, ils échangent avec un <strong>vendeur Gedimat</strong>, véritable expert du projet, qui reformule le besoin, pose les bonnes questions et oriente vers les solutions les plus adaptées.
+            <p class="font-bold">
+              Ma Maison de A à Z – Le défi rénovation est la web série Gedimat
+              qui transpose l’esprit du programme TV au cœur de nos magasins
+              Gedimat.
             </p>
-            <p class="mt-6">La web série met en lumière des situations réelles, des produits accessibles à tous, et des conseils simples pour faire les bons choix.</p>
             <p class="mt-6">
-              Diffusée également <strong>YouTube</strong>, elle vous proposera un nouvel épisode tous les mois, chacune consacrée à une <strong>thématique précise</strong>.
+              À chaque épisode, un défi concret lié à la rénovation ou à
+              l’aménagement est lancé par Matthieu, le présentateur de Ma Maison
+              de A à Z.
+            </p>
+            <p class="mt-6">
+              Pour le relever, <strong>Paulo &amp; Lulu</strong> se rendent dans
+              un magasin Gedimat. Sur place, ils échangent avec un
+              <strong>vendeur Gedimat</strong>, véritable expert du projet, qui
+              reformule le besoin, pose les bonnes questions et oriente vers les
+              solutions les plus adaptées.
+            </p>
+            <p class="mt-6">
+              La web série met en lumière des situations réelles, des produits
+              accessibles à tous, et des conseils simples pour faire les bons
+              choix.
+            </p>
+            <p class="mt-6">
+              Diffusée également <strong>YouTube</strong>, elle vous proposera
+              un nouvel épisode tous les mois, chacune consacrée à une
+              <strong>thématique précise</strong>.
             </p>
           </div>
         </div>
@@ -274,8 +380,12 @@ border-radius: 10px;
       <section id="paulo-lulu" class="my-16">
         <div class="flex flex-col gap-16 lg:gap-[76px] items-center w-full">
           <!-- Top block -->
-          <div class="flex flex-col lg:flex-row items-center gap-10 w-full px-6">
-            <div class="w-full max-w-[516px] h-[280px] sm:h-[320px] lg:h-[329px] overflow-hidden p-2 sm:p-6">
+          <div
+            class="flex flex-col lg:flex-row items-center gap-10 w-full px-6"
+          >
+            <div
+              class="w-full max-w-[516px] h-[280px] sm:h-[320px] lg:h-[329px] overflow-hidden p-2 sm:p-6"
+            >
               <img
                 src="https://uploads.gedimat.fr/CMS/images/webserie/logo-paulo-lulu2.png"
                 class="h-full w-full object-contain"
@@ -286,24 +396,38 @@ border-radius: 10px;
             <div class="w-full max-w-[611px]">
               <p class="font-bold">Qui sont Paulo &amp; Lulu Rénovation ?</p>
               <p class="mt-6">
-                <strong>Paulo &amp; Lulu Rénovation</strong> sont deux passionnés de rénovation qui partagent leurs projets au quotidien avec une large communauté sur Instagram, suivie par <strong>près de 700 000 abonnés.</strong>
+                <strong>Paulo &amp; Lulu Rénovation</strong> sont deux
+                passionnés de rénovation qui partagent leurs projets au
+                quotidien avec une large communauté sur Instagram, suivie par
+                <strong>près de 700 000 abonnés.</strong>
               </p>
               <p class="mt-6">
-                Depuis 2023, ils se sont lancés dans un chantier d’envergure : la rénovation complète d’une ancienne école, un projet mené jusqu’en 2025. À partir de 2026, un nouveau défi les attend : la rénovation d’un château, qu’ils accompagneront jusqu’en 2028.
+                Depuis 2023, ils se sont lancés dans un chantier d’envergure :
+                la rénovation complète d’une ancienne école, un projet mené
+                jusqu’en 2025. À partir de 2026, un nouveau défi les attend : la
+                rénovation d’un château, qu’ils accompagneront jusqu’en 2028.
               </p>
               <p class="mt-6">
-                Leur expérience de terrain, leurs questions concrètes et leur regard de particuliers font écho aux problématiques rencontrées par de nombreux clients Gedimat.
+                Leur expérience de terrain, leurs questions concrètes et leur
+                regard de particuliers font écho aux problématiques rencontrées
+                par de nombreux clients Gedimat.
               </p>
             </div>
           </div>
 
           <!-- Cards block -->
           <div class="relative w-full max-w-[1276px] mx-auto px-4 lg:px-[13px]">
-            <div class="absolute inset-x-0 top-[123px] bottom-0 bg-[#f4f3f1] rounded-2xl"></div>
+            <div
+              class="absolute inset-x-0 top-[123px] bottom-0 bg-[#f4f3f1] rounded-2xl"
+            ></div>
 
-            <div class="relative grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
+            <div
+              class="relative grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center"
+            >
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0">
+                <div
+                  class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0"
+                >
                   <img
                     src="https://uploads.gedimat.fr/CMS/images/webserie/partenariat.jpg"
                     class="h-full w-full object-contain md:object-cover"
@@ -311,12 +435,17 @@ border-radius: 10px;
                   />
                 </div>
                 <p class="mt-8 pb-10">
-                  Partenaire exclusif de Paulo &amp; Lulu depuis <strong>plus de deux ans</strong>, Gedimat les accompagne durablement, un partenariat renouvelé jusqu’à <strong>fin 2026</strong>.
+                  Partenaire exclusif de Paulo &amp; Lulu depuis
+                  <strong>plus de deux ans</strong>, Gedimat les accompagne
+                  durablement, un partenariat renouvelé jusqu’à
+                  <strong>fin 2026</strong>.
                 </p>
               </div>
 
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0">
+                <div
+                  class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0"
+                >
                   <img
                     src="https://uploads.gedimat.fr/CMS/images/webserie/portraits.jpg"
                     class="h-full w-full object-contain md:object-cover"
@@ -324,12 +453,16 @@ border-radius: 10px;
                   />
                 </div>
                 <p class="mt-8 pb-10">
-                  <strong>Dans Ma Maison de A à Z – Le défi rénovation</strong>, Paulo &amp; Lulu incarnent les clients : ils posent les questions, expriment les besoins et les contraintes du projet.
+                  <strong>Dans Ma Maison de A à Z – Le défi rénovation</strong>,
+                  Paulo &amp; Lulu incarnent les clients : ils posent les
+                  questions, expriment les besoins et les contraintes du projet.
                 </p>
               </div>
 
               <div class="w-full max-w-[332px] mx-auto">
-                <div class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0">
+                <div
+                  class="aspect-[4/3] sm:aspect-square md:h-[256px] md:[aspect-ratio:auto] overflow-hidden rounded-[8px] p-2 md:p-0"
+                >
                   <img
                     src="https://uploads.gedimat.fr/CMS/images/webserie/equipier.jpg"
                     class="h-full w-full object-contain md:object-cover"
@@ -337,20 +470,24 @@ border-radius: 10px;
                   />
                 </div>
                 <p class="mt-8 pb-10 whitespace-pre-line">
-                  Les solutions, les conseils et les choix techniques viennent des <strong>vendeurs Gedimat</strong>, véritables experts, qui les guident en magasin et sur le terrain.
+                  Les solutions, les conseils et les choix techniques viennent
+                  des <strong>vendeurs Gedimat</strong>, véritables experts, qui
+                  les guident en magasin et sur le terrain.
                 </p>
               </div>
             </div>
-          </div>s
+          </div>
         </div>
       </section>
 
-      <section id="videos" class="my-16">
-        <div class="border border-[#c0c0c0] rounded-[8px] px-6 pt-[30px] pb-[60px]">
+      <section id="videos" class="my-16 hidden">
+        <div
+          class="border border-[#c0c0c0] rounded-[8px] px-6 pt-[30px] pb-[60px]"
+        >
           <div class="flex flex-col gap-10">
             <div class="flex items-end gap-4">
               <div class="w-full">
-                <h2 >Autres épisodes</h2>
+                <h2>Autres épisodes</h2>
               </div>
             </div>
 
@@ -358,12 +495,20 @@ border-radius: 10px;
               <!-- Card 1 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
                     <div class="">Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -371,12 +516,20 @@ border-radius: 10px;
               <!-- Card 2 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
-                    <div >Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div>Episode titre</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -384,12 +537,20 @@ border-radius: 10px;
               <!-- Card 3 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
-                    <div >Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div>Episode titre</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -397,12 +558,20 @@ border-radius: 10px;
               <!-- Card 4 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
-                    <div >Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div>Episode titre</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -410,12 +579,20 @@ border-radius: 10px;
               <!-- Card 5 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#e8e8e8]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
-                    <div >Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div>Episode titre</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -423,12 +600,20 @@ border-radius: 10px;
               <!-- Card 6 -->
               <a href="#" class="block">
                 <div class="w-full">
-                  <div class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]">
-                    <img src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg" class="h-full w-full object-cover" alt="Miniature vidéo" />
+                  <div
+                    class="rounded-[8px] h-[220px] w-full overflow-hidden bg-[#d9d9d9]"
+                  >
+                    <img
+                      src="https://uploads.gedimat.fr/CMS/images/webserie/video.jpg"
+                      class="h-full w-full object-cover"
+                      alt="Miniature vidéo"
+                    />
                   </div>
                   <div class="mt-5 flex flex-col gap-[6px]">
-                    <div >Episode titre</div>
-                    <div class="text-[16px] leading-[25px] text-[#757575]">10 : 24</div>
+                    <div>Episode titre</div>
+                    <div class="text-[16px] leading-[25px] text-[#757575]">
+                      10 : 24
+                    </div>
                   </div>
                 </div>
               </a>
@@ -436,15 +621,7 @@ border-radius: 10px;
           </div>
         </div>
       </section>
-
-</div> <!-- #container -->
-
-</main> 
-
-
-
-
+    </div>
+    <!-- #container -->
+  </main>
 </body>
-
-
-
