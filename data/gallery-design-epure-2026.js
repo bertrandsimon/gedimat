@@ -31,7 +31,7 @@ const data = [
   },
   {
     "id": "7",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-design-epure-2023.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/exterieur-design-epure-2023.jpg",
     "link": "/article-exterieur-design-epure-terrasse-amenagee-en-patio-2455.htm"
   },
   {
@@ -44,11 +44,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-design-epure-2021.jpg",
     "link": "/article-sejour-design-epure-design-authentique-avec-parement-2427.htm"
   },
+  /*
   {
     "id": "10",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-design-epure-2022.jpg",
     "link": "/article-exterieur-design-epure-terrasse-ambiance-bord-de-mer-2460.htm"
   },
+  */
   {
     "id": "11",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-design-epure-2025.jpg",

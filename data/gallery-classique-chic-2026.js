@@ -14,11 +14,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/terrasse-classique-2359.jpg",
     "link": "/article-terrasse-classique-chic-une-terrasse-entre-modernite-et-sobriete-2359.htm"
   },
+  /*
   {
     "id": "4",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-classique.jpg",
     "link": "/article-salle-de-bains-classique-chic-romantique-et-intemporelle-2315.htm"
   },
+  */
   {
     "id": "5",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-classique-chic-2023.jpg",
@@ -29,21 +31,25 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-classique-chic-2022.jpg",
     "link": "/article-sejour-classique-chic-un-pigeonnier-authentique-2422.htm"
   },
+  /*
   {
     "id": "7",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/cuisine/cuisine-classique-chic-2023.jpg",
     "link": "/article-cuisine-classique-chic-2023-ouverte-et-raffinee-2428.htm"
   },
+  */
   {
     "id": "8",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-classique-chic-2022.jpg",
     "link": "/article-chambre-classique-chic-teletravail-chambre-parental-2437.htm"
   },
+  /*
   {
     "id": "9",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-classique-chic-2023.jpg",
     "link": "/article-sdb-classique-chic-campagne-chic-2446.htm"
   },
+  */
   {
     "id": "10",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-classique-chic-2023-2453.jpg",

@@ -4,11 +4,13 @@ const data = [
       "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/tendances/evasion-entree.jpg",
       "link": "/article-entree-evasion-exotique-la-nature-nous-inspire-des-lentree-2357.htm"
     },
+    /*
     {
       "id" : "2",
       "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-evastion-exotique-2022.jpg",
       "link": "/article-sdb-evasion-exotique-evasion-matinale-douche-tropicale-2448.htm"
     },
+    */
     {
         "id" : "3",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-evasion-exotique-2023.jpg",
@@ -46,7 +48,7 @@ const data = [
       },
       {
         "id" : "10",
-        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-evasion-exotique-2025.jpg",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-evasion-exotique-2025.jpg",
         "link": "/article-salle-de-bains-evasion-exotique-2499.htm"
       },
       {

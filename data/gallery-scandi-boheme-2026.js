@@ -29,11 +29,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/tendances/scandi-cuisine.jpg",
     "link": "/article-cuisine-scandi-boheme-intemporelle-et-depaysante-2350.htm"
   },
+  /*
   {
     "id": "7",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-scandi-boheme-2022.jpg",
     "link": "/article-sejour-scandi-boheme-accueillant-et-chaleureux-2423.htm"
   },
+  */
   {
     "id": "8",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-scandi-boheme-2023.jpg",
@@ -77,7 +79,7 @@ const data = [
   },
   {
     "id": "17",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/exterieur-scandi-boheme-2025.jpg",
     "link": "/article-exterieur-scandi-boheme-2500.htm"
   },
   {

@@ -14,11 +14,13 @@ const data = [
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/cuisine-loft-indus-2022.jpg",
         "link": "/article-cuisine-loft-contemporain-2022-esprit-bar-pour-recevoir-famille-et-amis-2431.htm"
       },
+      /*
       {
         "id" : "4",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-loft-indus-2021.jpg",
         "link": "/article-chambre-loft-contemporain-pour-ado-dans-les-combles-2442.htm"
       },
+      */
       {
         "id" : "5",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/exterieur-loft-indus-2021.jpg",
@@ -41,7 +43,7 @@ const data = [
       },
       {
         "id" : "9",
-        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sdb-loft-indus-2023.jpg",
+        "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-loft-indus-2023.jpg",
         "link": "/article-sdb-loft-contemporain-style-urbain-affirme-2445.htm"
       },
       {
@@ -49,11 +51,13 @@ const data = [
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/tendances/loft-terrasse.jpg",
         "link": "/article-terrasse-loft-contemporain-une-terrasse-qui-a-du-caractere-2360.htm"
       },
+      /*
       {
         "id" : "11",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/sejour-loft-industriel-2021.jpg",
         "link": "/article-sejour-loft-contemporain-hangar-amenage-en-loft-2425.htm"
       },
+      */
       {
         "id" : "12",
         "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2024/pieces/chambre-loft-indus-2022.jpg",

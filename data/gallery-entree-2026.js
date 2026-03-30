@@ -6,7 +6,7 @@ const data = [
   },
   {
     "id": "2",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/entree/entree-retro-cool-2356.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/entree-retro-cool-2356.jpg",
     "link": "/article-entree-retro-cool-une-entree-originale-qui-reveille-limagination-2356.htm"
   },
   {

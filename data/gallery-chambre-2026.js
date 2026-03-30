@@ -19,11 +19,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-retro-cool-2022.jpg",
     "link": "https://www.gedimat.fr/article-chambre-retro-cool-style-et-petit-budget-2439.htm"
   },
+  /*
   {
     "id": "5",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-indus-2021.jpg",
     "link": "https://www.gedimat.fr/article-chambre-loft-contemporain-pour-ado-dans-les-combles-2442.htm"
   },
+  */
   {
     "id": "6",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/chambre/chambre-loft-6.jpg",

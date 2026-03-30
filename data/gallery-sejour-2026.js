@@ -14,11 +14,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-industriel-2023.jpg",
     "link": "https://www.gedimat.fr/article-sejour-loft-contemporain-sejour-esprit-factory-2420.htm"
   },
+  /*
   {
     "id": "4",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-scandi-boheme-2022.jpg",
     "link": "https://www.gedimat.fr/article-sejour-scandi-boheme-accueillant-et-chaleureux-2423.htm"
   },
+  */
   {
     "id": "5",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-scandi-boheme-2021.jpg",
@@ -65,11 +67,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-classique-chic-2022.jpg",
     "link": "https://www.gedimat.fr/article-sejour-classique-chic-un-pigeonnier-authentique-2422.htm"
   },
+  /*
   {
     "id": "14",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-industriel-2021.jpg",
     "link": "https://www.gedimat.fr/article-sejour-loft-contemporain-hangar-amenage-en-loft-2425.htm"
   },
+  */
   {
     "id": "15",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sejour/sejour-loft-contemporain-2025.jpg",

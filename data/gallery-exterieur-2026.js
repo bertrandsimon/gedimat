@@ -17,7 +17,7 @@ const data = [
   },
   {
     "id": "4",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-design-epure-2023-2455.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/exterieur-design-epure-2023-2455.jpg",
     "link": "https://www.gedimat.fr/article-exterieur-design-epure-terrasse-amenagee-en-patio-2455.htm"
   },
   {
@@ -44,7 +44,7 @@ const data = [
   // --- Column #2 ---
   {
     "id": "9",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/terrasse-retro-2312.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/terrasse-retro-2312.jpg",
     "link": "https://www.gedimat.fr/article-terrasse-retro-cool-un-espace-vintage-qui-swingue-2312.htm"
   },
   {
@@ -105,11 +105,13 @@ const data = [
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2023-2454.jpg",
     "link": "https://www.gedimat.fr/article-exterieur-scandi-boheme-nordique-cocooning-2454.htm"
   },
+  /*
   {
     "id": "21",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-noir-et-blanc-2022-2469.jpg",
     "link": "https://www.gedimat.fr/article-exterieur-noir-et-blanc-intemportel-aux-contrastes-marques-2469.htm"
   },
+  */
   {
     "id": "22",
     "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-retro-cool-2022-2463.jpg",
@@ -118,7 +120,7 @@ const data = [
 
   {
     "id": "24",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/exterieur/exterieur-scandi-boheme-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/exterieur-scandi-boheme-2025.jpg",
     "link": "https://www.gedimat.fr/article-terrasse-scandinave-boheme-l-esprit-ibiza-chez-soi-2319.htm"
   },
 
