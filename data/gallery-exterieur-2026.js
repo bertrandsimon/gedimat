@@ -120,7 +120,7 @@ const data = [
 
   {
     "id": "24",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/exterieur-scandi-boheme-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/article-exterieur-scandi-boheme-2500.htm",
     "link": "https://www.gedimat.fr/article-terrasse-scandinave-boheme-l-esprit-ibiza-chez-soi-2319.htm"
   },
 

@@ -115,7 +115,7 @@ const data = [
   },
   {
     "id": "21",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-evasion-exotique-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-evasion-exotique-2025.jpg",
     "link": "https://www.gedimat.fr/article-salle-de-bains-evasion-exotique-2499.htm"
   },
   {
