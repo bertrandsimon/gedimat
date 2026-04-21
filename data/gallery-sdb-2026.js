@@ -32,7 +32,7 @@ const data = [
   */
   {
     "id": "6",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-retro-cool-2022.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sbb-retro-cool-2026.jpg",
     "link": "https://www.gedimat.fr/article-sdb-retro-cool-vue-mer-dans-grenier-2452.htm"
   },
   {
@@ -83,7 +83,7 @@ const data = [
   */
   {
     "id": "15",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-loft-indus-2023.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-loft-contemporain-2026.jpg",
     "link": "https://www.gedimat.fr/article-sdb-loft-contemporain-style-urbain-affirme-2445.htm"
   },
   /*
@@ -120,12 +120,12 @@ const data = [
   },
   {
     "id": "22",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-classique-chic-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-classique-chic-2026-2.jpg",
     "link": "https://www.gedimat.fr/article-salle-de-bains-classique-chic-2503.htm"
   },
   {
     "id": "23",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-retro-cool-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-retro-cool-2026.jpg",
     "link": "https://www.gedimat.fr/article-salle-de-bains-retro-cool-2509.htm"
   }
 ];

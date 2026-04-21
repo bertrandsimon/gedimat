@@ -72,7 +72,7 @@ const data = [
   },
   {
     "id": "14",
-    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances/galeries/pieces/sdb/sdb-classique-chic-2025.jpg",
+    "img_url": "https://uploads.gedimat.fr/CMS/images/tendances2026/sdb-classique-chic-2026.jpg",
     "link": "/article-salle-de-bains-classique-chic-2503.htm"
   },
   {
